@@ -31,6 +31,27 @@ With a single click, you can reproduce a run that scores **2× higher than the b
 
 ---
 
+## 🛠️ Synthesize Data for Your Own Benchmark
+
+### **It's as simple as one sentence:**
+
+If you use an agent (e.g. Claude Code) that supports skills, the easiest way is a **single sentence**: point it at your evaluation entry point and let the skill drive the whole pipeline. For example:
+
+> My eval launch command is `<your eval command>`. Read this skill and synthesize training data for this benchmark.
+
+The reproduction above uses our released data. To generate **same-distribution data for your own tool-use / agentic benchmark**, use the skill under [`skills/tool-use-data-synthesis/`](skills/tool-use-data-synthesis/) (see [`SKILL.md`](skills/tool-use-data-synthesis/SKILL.md)).
+
+The skill picks one of two synthesis paradigms based on how your benchmark scores — **Paradigm A** for LLM-judged benchmarks and **Paradigm B** for rule-based ones:
+
+<div align="center">
+<img src="aseets/paradigm-a.png" alt="Paradigm A: Execute-then-Extract — Generate, Execute, Extract, Filter" width="380">
+<img src="aseets/paradigm-b.png" alt="Paradigm B: Construct-then-Verify — Construct, Verify, Phrase, Roll" width="380">
+</div>
+
+The skill will read your evaluator to determine the scoring mechanism (rule-based vs. LLM-judged), pick the right synthesis paradigm, align to your benchmark's structural distribution, roll out real trajectories, and emit training data — following the methodology in `SKILL.md`.
+
+---
+
 ## 📂 Repository Layout
 
 ```
@@ -95,25 +116,6 @@ Checkpoints are written to `output/exp0/`; each run also copies its config and f
 ### 5. Evaluate
 
 Evaluate the trained checkpoint on the **MCP-Atlas public set** using the environment under [`codes/mcp-atlas/`](codes/mcp-atlas/) — see that directory's README for how to bring up the environment and run the evaluation.
-
----
-
-## 🛠️ Synthesize Data for Your Own Benchmark
-
-The reproduction above uses our released data. To generate **same-distribution data for your own tool-use / agentic benchmark**, use the skill under [`skills/tool-use-data-synthesis/`](skills/tool-use-data-synthesis/) (see [`SKILL.md`](skills/tool-use-data-synthesis/SKILL.md)).
-
-The skill picks one of two synthesis paradigms based on how your benchmark scores — **Paradigm A** for LLM-judged benchmarks and **Paradigm B** for rule-based ones:
-
-<div align="center">
-<img src="aseets/paradigm-a.png" alt="Paradigm A: Execute-then-Extract — Generate, Execute, Extract, Filter" width="380">
-<img src="aseets/paradigm-b.png" alt="Paradigm B: Construct-then-Verify — Construct, Verify, Phrase, Roll" width="380">
-</div>
-
-If you use an agent (e.g. Claude Code) that supports skills, the easiest way is a **single sentence**: point it at your evaluation entry point and let the skill drive the whole pipeline. For example:
-
-> My eval launch command is `<your eval command>`. Read this skill and synthesize training data for this benchmark.
-
-The skill will read your evaluator to determine the scoring mechanism (rule-based vs. LLM-judged), pick the right synthesis paradigm, align to your benchmark's structural distribution, roll out real trajectories, and emit training data — following the methodology in `SKILL.md`.
 
 ---
 
