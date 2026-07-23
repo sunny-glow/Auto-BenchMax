@@ -1,0 +1,2 @@
+This folder contains .venv used by "uv" for mcp code execturo MCP server: @geobio/code_execution_server
+Please don't delete this folder even if it looks empty, unless that MCP server is no longer used.

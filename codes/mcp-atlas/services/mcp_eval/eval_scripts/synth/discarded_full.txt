@@ -1,0 +1,517 @@
+============================================================
+DISCARDED SYNTHETIC TASKS
+============================================================
+
+Input: completion_results/synth_roll_full.csv
+Kept: 1286   Discarded: 255
+
+Task 689e0b1d9c8e2ac413c1f25c_syn006
+  Reason: empty/too-short answer
+Task 689e0b1d9c8e2ac413c1f25c_syn004
+  Reason: empty/too-short answer
+Task 689e0b1d9c8e2ac413c1f25c_syn001
+  Reason: empty/too-short answer
+Task 689e0b1d9c8e2ac413c1f25c_syn012
+  Reason: only 2 claims extracted
+Task 689e0b1d9c8e2ac413c1f25c_syn003
+  Reason: only 2 claims extracted
+Task 689e0b1d9c8e2ac413c1f25c_syn009
+  Reason: only 2 claims extracted
+Task 689e0b1d9c8e2ac413c1f25c_syn011
+  Reason: only 2 claims extracted
+Task 689e0b1d9c8e2ac413c1f25c_syn010
+  Reason: only 2 claims extracted
+Task 689e0b1d9c8e2ac413c1f25c_syn002
+  Reason: only 2 claims extracted
+Task 689e0b1d9c8e2ac413c1f25c_syn000
+  Reason: only 2 claims extracted
+Task 689e0b1d9c8e2ac413c1f25c_syn014
+  Reason: only 2 claims extracted
+Task 689e0b1d9c8e2ac413c1f25c_syn008
+  Reason: only 2 claims extracted
+Task 689e0b1d9c8e2ac413c1f25c_syn005
+  Reason: only 2 claims extracted
+Task 6896416f7b30e5d8ccd7c8f7_syn015
+  Reason: only 0 claims extracted
+Task 68993ef3cf3e953b8ab83fe3_syn005
+  Reason: only 0 claims extracted
+Task 68993ef3cf3e953b8ab83fd3_syn002
+  Reason: only 1 claims extracted
+Task 68993ef3cf3e953b8ab83fd3_syn013
+  Reason: empty/too-short answer
+Task 68993ef3cf3e953b8ab83fd3_syn015
+  Reason: only 2 claims extracted
+Task 68993ef3cf3e953b8ab83fd3_syn018
+  Reason: only 2 claims extracted
+Task 6896416f7b30e5d8ccd7c8c2_syn001
+  Reason: only 2 claims extracted
+Task 6896416f7b30e5d8ccd7c8c2_syn004
+  Reason: only 2 claims extracted
+Task 6896416f7b30e5d8ccd7c8c2_syn000
+  Reason: only 2 claims extracted
+Task 6896416f7b30e5d8ccd7c8c2_syn006
+  Reason: only 2 claims extracted
+Task 6896416f7b30e5d8ccd7c8c2_syn008
+  Reason: only 2 claims extracted
+Task 6896416f7b30e5d8ccd7c8c2_syn010
+  Reason: only 2 claims extracted
+Task 6896416f7b30e5d8ccd7c8c2_syn003
+  Reason: only 2 claims extracted
+Task 6896416f7b30e5d8ccd7c8c2_syn011
+  Reason: only 2 claims extracted
+Task 6888e207a34beb25cfedda46_syn001
+  Reason: only 2 claims extracted
+Task 689e0b1d9c8e2ac413c1f202_syn003
+  Reason: empty/too-short answer
+Task 689e0b1d9c8e2ac413c1f202_syn000
+  Reason: only 1 claims extracted
+Task 689e0b1d9c8e2ac413c1f202_syn004
+  Reason: only 1 claims extracted
+Task 689e0b1d9c8e2ac413c1f202_syn006
+  Reason: only 1 claims extracted
+Task 689e0b1d9c8e2ac413c1f202_syn001
+  Reason: only 1 claims extracted
+Task 689e0b1d9c8e2ac413c1f202_syn005
+  Reason: only 1 claims extracted
+Task 689e0b1d9c8e2ac413c1f202_syn009
+  Reason: only 1 claims extracted
+Task 689e0b1d9c8e2ac413c1f202_syn002
+  Reason: only 1 claims extracted
+Task 689e0b1d9c8e2ac413c1f202_syn008
+  Reason: only 1 claims extracted
+Task 689e0b1d9c8e2ac413c1f202_syn007
+  Reason: only 1 claims extracted
+Task 689e0b1d9c8e2ac413c1f202_syn012
+  Reason: only 1 claims extracted
+Task 689e0b1d9c8e2ac413c1f202_syn010
+  Reason: only 1 claims extracted
+Task 689e0b1d9c8e2ac413c1f202_syn015
+  Reason: only 1 claims extracted
+Task 689e0b1d9c8e2ac413c1f202_syn014
+  Reason: only 1 claims extracted
+Task 68940d8355faa0b720f0b485_syn005
+  Reason: empty/too-short answer
+Task 689e0b1d9c8e2ac413c1f202_syn013
+  Reason: only 0 claims extracted
+Task 68940d8355faa0b720f0b485_syn003
+  Reason: only 2 claims extracted
+Task 68940d8355faa0b720f0b485_syn002
+  Reason: only 2 claims extracted
+Task 68940d8355faa0b720f0b485_syn004
+  Reason: only 2 claims extracted
+Task 68940d8355faa0b720f0b485_syn007
+  Reason: only 2 claims extracted
+Task 68940d8355faa0b720f0b485_syn010
+  Reason: only 2 claims extracted
+Task 68940d8355faa0b720f0b485_syn012
+  Reason: only 2 claims extracted
+Task 68940d8355faa0b720f0b485_syn013
+  Reason: only 2 claims extracted
+Task 68940d8355faa0b720f0b485_syn015
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2017_syn000
+  Reason: only 2 claims extracted
+Task 68993ef3cf3e953b8ab83fdb_syn021
+  Reason: empty/too-short answer
+Task 68940d8355faa0b720f0b485_syn017
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2017_syn001
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2017_syn003
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2017_syn002
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2017_syn005
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2017_syn006
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2017_syn007
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2017_syn004
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2017_syn011
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2017_syn010
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2017_syn017
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2017_syn016
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2017_syn018
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2017_syn019
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2017_syn020
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2017_syn024
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2017_syn022
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2017_syn023
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2017_syn021
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2017_syn025
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2017_syn026
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2017_syn028
+  Reason: only 2 claims extracted
+Task 686d2c79e1db37ea23ddda15_syn022
+  Reason: only 2 claims extracted
+Task 68a398aa2f58036e8d45ee0c_syn003
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn000
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn001
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn002
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn005
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn006
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn004
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn007
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn008
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn009
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn010
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn011
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn012
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn013
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn014
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn015
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn016
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn017
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn018
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn020
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn019
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn021
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn022
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee0c_syn023
+  Reason: empty/too-short answer
+Task 68993ef3cf3e953b8ab83fa0_syn015
+  Reason: only 0 claims extracted
+Task 68993ef3cf3e953b8ab83fdf_syn000
+  Reason: only 0 claims extracted
+Task 68993ef3cf3e953b8ab83fdf_syn004
+  Reason: only 0 claims extracted
+Task 68993ef3cf3e953b8ab83fdf_syn005
+  Reason: only 0 claims extracted
+Task 6897a6002b64a8c831efa30c_syn000
+  Reason: only 2 claims extracted
+Task 68993ef3cf3e953b8ab83fdf_syn012
+  Reason: only 0 claims extracted
+Task 6897a6002b64a8c831efa30c_syn001
+  Reason: only 2 claims extracted
+Task 68993ef3cf3e953b8ab83fdf_syn016
+  Reason: only 0 claims extracted
+Task 68993ef3cf3e953b8ab83fdf_syn009
+  Reason: only 0 claims extracted
+Task 68a398aa2f58036e8d45ede3_syn000
+  Reason: failure marker: 'does not exist'
+Task 68a398aa2f58036e8d45ede3_syn001
+  Reason: failure marker: 'not found'
+Task 68a398aa2f58036e8d45ede3_syn002
+  Reason: failure marker: 'does not exist'
+Task 68a398aa2f58036e8d45ede3_syn006
+  Reason: failure marker: 'not found'
+Task 68a398aa2f58036e8d45ede3_syn005
+  Reason: failure marker: 'does not exist'
+Task 68a398aa2f58036e8d45ede3_syn004
+  Reason: failure marker: 'does not exist'
+Task 68a398aa2f58036e8d45ede3_syn008
+  Reason: failure marker: 'does not exist'
+Task 68a398aa2f58036e8d45ede3_syn009
+  Reason: failure marker: 'not found'
+Task 68a398aa2f58036e8d45ede3_syn007
+  Reason: failure marker: 'does not exist'
+Task 68a398aa2f58036e8d45ede3_syn010
+  Reason: failure marker: 'not found'
+Task 68a398aa2f58036e8d45ede3_syn011
+  Reason: failure marker: 'not found'
+Task 68a398aa2f58036e8d45ede3_syn013
+  Reason: failure marker: 'no results'
+Task 68a398aa2f58036e8d45ede3_syn003
+  Reason: failure marker: 'does not exist'
+Task 68a398aa2f58036e8d45ede3_syn014
+  Reason: failure marker: 'does not exist'
+Task 68a398aa2f58036e8d45ede3_syn015
+  Reason: failure marker: 'not found'
+Task 68a398aa2f58036e8d45ede3_syn016
+  Reason: failure marker: 'does not exist'
+Task 68a398aa2f58036e8d45ede3_syn017
+  Reason: failure marker: 'not found'
+Task 68a398aa2f58036e8d45ede3_syn021
+  Reason: failure marker: 'not found'
+Task 68a398aa2f58036e8d45ede3_syn018
+  Reason: failure marker: 'does not exist'
+Task 68a398aa2f58036e8d45ede3_syn025
+  Reason: failure marker: 'does not exist'
+Task 68a398aa2f58036e8d45ede3_syn023
+  Reason: failure marker: 'not found'
+Task 68a398aa2f58036e8d45ede3_syn024
+  Reason: failure marker: 'not found'
+Task 68a398aa2f58036e8d45ede3_syn039
+  Reason: failure marker: 'does not exist'
+Task 68a398aa2f58036e8d45ede3_syn038
+  Reason: failure marker: 'i could not find'
+Task 68a398aa2f58036e8d45ede3_syn040
+  Reason: failure marker: 'does not exist'
+Task 68a398aa2f58036e8d45ede3_syn041
+  Reason: failure marker: 'not found'
+Task 689bd255c0422b257e7dfcc5_syn000
+  Reason: only 2 claims extracted
+Task 68a398aa2f58036e8d45ede3_syn044
+  Reason: failure marker: 'does not exist'
+Task 68a398aa2f58036e8d45ede3_syn043
+  Reason: failure marker: 'does not exist'
+Task 68a398aa2f58036e8d45ede3_syn042
+  Reason: failure marker: 'does not exist'
+Task 689bd255c0422b257e7dfcc5_syn005
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcc5_syn010
+  Reason: only 2 claims extracted
+Task 6896416f7b30e5d8ccd7c909_syn008
+  Reason: only 0 claims extracted
+Task 689bd255c0422b257e7dfcfd_syn002
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcfd_syn003
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcfd_syn004
+  Reason: only 2 claims extracted
+Task 6896416f7b30e5d8ccd7c909_syn012
+  Reason: only 0 claims extracted
+Task 689bd255c0422b257e7dfcfd_syn005
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcfd_syn007
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcfd_syn006
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcfd_syn008
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcfd_syn012
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcfd_syn011
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcfd_syn013
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcfd_syn014
+  Reason: only 2 claims extracted
+Task 6890e7fd2516f66b0a628e68_syn007
+  Reason: empty/too-short answer
+Task 689bd255c0422b257e7dfcfd_syn015
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcfd_syn009
+  Reason: only 2 claims extracted
+Task 6897a6002b64a8c831efa338_syn009
+  Reason: empty/too-short answer
+Task 6897a6002b64a8c831efa338_syn014
+  Reason: empty/too-short answer
+Task 6897a6002b64a8c831efa338_syn001
+  Reason: only 0 claims extracted
+Task 689cd6f8522029b7ad7b2007_syn003
+  Reason: empty/too-short answer
+Task 689cd6f8522029b7ad7b2007_syn001
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2007_syn008
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2007_syn011
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2007_syn009
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2007_syn012
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2007_syn022
+  Reason: empty/too-short answer
+Task 689cd6f8522029b7ad7b2007_syn018
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2007_syn016
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2007_syn023
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2007_syn025
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2007_syn026
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2007_syn021
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2007_syn007
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2007_syn027
+  Reason: only 2 claims extracted
+Task 689cd6f8522029b7ad7b2007_syn024
+  Reason: only 0 claims extracted
+Task 689cd6f8522029b7ad7b2007_syn028
+  Reason: only 2 claims extracted
+Task 68a398aa2f58036e8d45ee09_syn011
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee09_syn021
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee09_syn020
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ee09_syn028
+  Reason: only 2 claims extracted
+Task 68a398aa2f58036e8d45ee09_syn024
+  Reason: only 0 claims extracted
+Task 68a398aa2f58036e8d45ee09_syn031
+  Reason: only 2 claims extracted
+Task 68a398aa2f58036e8d45ee09_syn023
+  Reason: only 0 claims extracted
+Task 68a398aa2f58036e8d45ee09_syn037
+  Reason: only 0 claims extracted
+Task 68a398aa2f58036e8d45ee09_syn041
+  Reason: only 2 claims extracted
+Task 68a398aa2f58036e8d45ee09_syn044
+  Reason: failure marker: 'not found'
+Task 68a398aa2f58036e8d45ee09_syn039
+  Reason: only 0 claims extracted
+Task 68a398aa2f58036e8d45ee09_syn043
+  Reason: failure marker: 'not found'
+Task 68993ef3cf3e953b8ab83fcd_syn010
+  Reason: failure marker: 'no results'
+Task 6896416f7b30e5d8ccd7c8d6_syn011
+  Reason: only 2 claims extracted
+Task 689f4d693e212e8ef33906e5_syn000
+  Reason: empty/too-short answer
+Task 689f4d693e212e8ef33906e5_syn007
+  Reason: empty/too-short answer
+Task 689f4d693e212e8ef33906e5_syn018
+  Reason: empty/too-short answer
+Task 689bd255c0422b257e7dfcb0_syn001
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcb0_syn000
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcb0_syn004
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcb0_syn002
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcb0_syn006
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcb0_syn005
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcb0_syn013
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcb0_syn014
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcb0_syn016
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcb0_syn015
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcb0_syn008
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcb0_syn018
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcb0_syn023
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcb0_syn024
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcb0_syn020
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcb0_syn021
+  Reason: only 2 claims extracted
+Task 689bd255c0422b257e7dfcb0_syn026
+  Reason: only 2 claims extracted
+Task 68940d8355faa0b720f0b4a9_syn003
+  Reason: empty/too-short answer
+Task 686d2c79e1db37ea23ddda26_syn010
+  Reason: only 2 claims extracted
+Task 68940d8355faa0b720f0b4a9_syn009
+  Reason: only 2 claims extracted
+Task 68940d8355faa0b720f0b4a9_syn012
+  Reason: only 2 claims extracted
+Task 68940d8355faa0b720f0b4a9_syn014
+  Reason: only 2 claims extracted
+Task 68940d8355faa0b720f0b4a9_syn011
+  Reason: only 2 claims extracted
+Task 688706e2ca6b330849710721_syn012
+  Reason: only 2 claims extracted
+Task 68925f01db31fe35560e3e8c_syn000
+  Reason: only 2 claims extracted
+Task 68925f01db31fe35560e3e8c_syn002
+  Reason: only 2 claims extracted
+Task 68925f01db31fe35560e3e8c_syn004
+  Reason: only 2 claims extracted
+Task 68925f01db31fe35560e3e8c_syn008
+  Reason: only 2 claims extracted
+Task 68925f01db31fe35560e3e8c_syn010
+  Reason: only 0 claims extracted
+Task 68925f01db31fe35560e3e8c_syn005
+  Reason: only 0 claims extracted
+Task 68925f01db31fe35560e3e8c_syn015
+  Reason: only 2 claims extracted
+Task 68925f01db31fe35560e3e8c_syn016
+  Reason: only 2 claims extracted
+Task 68925f01db31fe35560e3e8c_syn012
+  Reason: only 2 claims extracted
+Task 68925f01db31fe35560e3e8c_syn018
+  Reason: only 2 claims extracted
+Task 68925f01db31fe35560e3e8c_syn017
+  Reason: only 0 claims extracted
+Task 68993ef3cf3e953b8ab83fca_syn011
+  Reason: only 2 claims extracted
+Task 68a398aa2f58036e8d45ee00_syn000
+  Reason: only 2 claims extracted
+Task 68a398aa2f58036e8d45ee00_syn001
+  Reason: only 1 claims extracted
+Task 68993ef3cf3e953b8ab83f88_syn038
+  Reason: only 0 claims extracted
+Task 68a398aa2f58036e8d45ee00_syn004
+  Reason: only 1 claims extracted
+Task 68a398aa2f58036e8d45ee00_syn003
+  Reason: only 1 claims extracted
+Task 68a398aa2f58036e8d45ee00_syn009
+  Reason: only 1 claims extracted
+Task 68a398aa2f58036e8d45ee00_syn007
+  Reason: only 1 claims extracted
+Task 68a398aa2f58036e8d45ee00_syn006
+  Reason: failure marker: 'not found'
+Task 68a398aa2f58036e8d45ee00_syn008
+  Reason: only 1 claims extracted
+Task 68a398aa2f58036e8d45ee00_syn005
+  Reason: only 1 claims extracted
+Task 68a398aa2f58036e8d45ee00_syn014
+  Reason: only 1 claims extracted
+Task 68a398aa2f58036e8d45ee00_syn012
+  Reason: only 1 claims extracted
+Task 68a398aa2f58036e8d45ee00_syn015
+  Reason: only 1 claims extracted
+Task 68a398aa2f58036e8d45ee00_syn018
+  Reason: only 1 claims extracted
+Task 68a398aa2f58036e8d45ee00_syn017
+  Reason: only 1 claims extracted
+Task 68a398aa2f58036e8d45ee00_syn016
+  Reason: only 2 claims extracted
+Task 68a398aa2f58036e8d45ee00_syn013
+  Reason: only 2 claims extracted
+Task 68a398aa2f58036e8d45ee00_syn023
+  Reason: only 1 claims extracted
+Task 68a398aa2f58036e8d45ee00_syn024
+  Reason: only 1 claims extracted
+Task 68a398aa2f58036e8d45ee00_syn025
+  Reason: only 1 claims extracted
+Task 68a398aa2f58036e8d45ee00_syn019
+  Reason: only 1 claims extracted
+Task 68a398aa2f58036e8d45ee00_syn028
+  Reason: only 1 claims extracted
+Task 68a398aa2f58036e8d45ee00_syn026
+  Reason: only 1 claims extracted
+Task 68a398aa2f58036e8d45ee00_syn027
+  Reason: only 2 claims extracted

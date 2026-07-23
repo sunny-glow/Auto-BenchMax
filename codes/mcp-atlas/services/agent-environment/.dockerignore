@@ -1,0 +1,34 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.egg-info
+build/
+dist/
+
+# Virtual environments (will create fresh in Docker)
+.venv/
+venv/
+
+# Test and dev files
+tests/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git (submodules are cloned fresh in Dockerfile)
+.git/
+.gitignore
+.gitattributes
+
+# Environment files (use --env-file with docker run instead)
+.env
+.env.*
+

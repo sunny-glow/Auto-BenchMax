@@ -1,0 +1,8 @@
+fastapi==0.115.6
+uvicorn==0.32.1
+pydantic==2.10.3
+httpx==0.28.1
+python-multipart==0.0.20
+python-dotenv==1.0.1
+litellm>=1.75.0
+datasets>=2.14.0

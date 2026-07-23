@@ -1,0 +1,13 @@
+============================================================
+DISCARDED SYNTHETIC TASKS
+============================================================
+
+Input: completion_results/synth_roll_smoke.csv
+Kept: 6   Discarded: 3
+
+Task 68a398aa2f58036e8d45ede8_syn003
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ede8_syn000
+  Reason: empty/too-short answer
+Task 68a398aa2f58036e8d45ede8_syn004
+  Reason: empty/too-short answer

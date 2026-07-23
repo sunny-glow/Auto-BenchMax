@@ -1,0 +1,43 @@
+{
+  "688ba1b3e95696e72dd93e8d": [
+    "osm-mcp-server",
+    "wikipedia"
+  ],
+  "688ba1b3e95696e72dd93e8a": [
+    "desktop-commander",
+    "git"
+  ],
+  "68993ef3cf3e953b8ab83fa9": [
+    "desktop-commander",
+    "mcp-code-executor"
+  ],
+  "689af4e653c3905e7b5b25b8": [
+    "filesystem",
+    "mcp-code-executor"
+  ],
+  "688fb11183792b921381bd14": [
+    "osm-mcp-server",
+    "wikipedia"
+  ],
+  "6888e207a34beb25cfedda3b": [
+    "calculator",
+    "cli-mcp-server"
+  ],
+  "689cd6f8522029b7ad7b2017": [
+    "fetch",
+    "filesystem",
+    "mcp-code-executor"
+  ],
+  "6896416f7b30e5d8ccd7c8be": [
+    "ddg-search",
+    "met-museum"
+  ],
+  "68993ef3cf3e953b8ab83fdf": [
+    "ddg-search",
+    "osm-mcp-server"
+  ],
+  "689bd255c0422b257e7dfcc5": [
+    "filesystem",
+    "mcp-code-executor"
+  ]
+}

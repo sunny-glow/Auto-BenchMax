@@ -1,0 +1,24 @@
+[submodule "services/agent-environment/data/repos/balldontlie-mcp"]
+	path = services/agent-environment/data/repos/balldontlie-mcp
+	url = https://github.com/mikechao/balldontlie-mcp.git
+[submodule "services/agent-environment/data/repos/mcp-server-calculator"]
+	path = services/agent-environment/data/repos/mcp-server-calculator
+	url = https://github.com/githejie/mcp-server-calculator.git
+[submodule "services/agent-environment/data/repos/metmuseum-mcp"]
+	path = services/agent-environment/data/repos/metmuseum-mcp
+	url = https://github.com/mikechao/metmuseum-mcp.git
+[submodule "services/agent-environment/data/repos/mongodb-mcp-server"]
+	path = services/agent-environment/data/repos/mongodb-mcp-server
+	url = https://github.com/mongodb-js/mongodb-mcp-server.git
+[submodule "services/agent-environment/data/repos/slackr"]
+	path = services/agent-environment/data/repos/slackr
+	url = https://github.com/mrkaye97/slackr.git
+[submodule "services/agent-environment/data/repos/storyteller"]
+	path = services/agent-environment/data/repos/storyteller
+	url = https://github.com/lgrammel/storyteller.git
+[submodule "services/agent-environment/data/repos/tree-sitter-diff"]
+	path = services/agent-environment/data/repos/tree-sitter-diff
+	url = https://github.com/the-mikedavis/tree-sitter-diff.git
+[submodule "services/agent-environment/data/repos/snake-game"]
+	path = services/agent-environment/data/repos/snake-game
+	url = https://github.com/Atamyrat2005/snake-game.git

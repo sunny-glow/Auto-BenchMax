@@ -1,0 +1,1 @@
+memories-for-mcp.json file is used by @modelcontextprotocol/server-memory

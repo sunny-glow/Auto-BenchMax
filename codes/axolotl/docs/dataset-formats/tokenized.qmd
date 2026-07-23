@@ -1,0 +1,28 @@
+---
+title: Custom Pre-Tokenized Dataset
+description: How to use a custom pre-tokenized dataset.
+order: 5
+---
+
+- Pass an empty `type:` in your axolotl config.
+- Columns in Dataset must be exactly `input_ids`, `attention_mask`, `labels`
+- To indicate that a token should be ignored during training, set its corresponding label to `-100`.
+- You must add BOS and EOS, and make sure that you are training on EOS by not setting its label to -100.
+- For pretraining, do not truncate/pad documents to the context window length.
+- For instruction training, documents must be truncated/padded as desired.
+
+Sample config:
+
+```{.yaml filename="config.yml"}
+datasets:
+  - path: /path/to/your/file.jsonl
+    ds_type: json
+    type:
+```
+
+Sample jsonl:
+
+```jsonl
+{"input_ids":[271,299,99],"attention_mask":[1,1,1],"labels":[271,-100,99]}
+{"input_ids":[87,227,8383,12],"attention_mask":[1,1,1,1],"labels":[87,227,8383,12]}
+```

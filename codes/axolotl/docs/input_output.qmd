@@ -1,0 +1,6 @@
+---
+title: Template-free prompt construction
+description: "Template-free prompt construction with the `input_output` format"
+---
+
+The documentation moved to [here](dataset-formats/template_free.qmd).

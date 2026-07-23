@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mcp-eval"
+version = "0.1.0"
+description = "Standalone MCP evaluation environment"
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn>=0.32.0",
+    "pydantic>=2.10.0",
+    "httpx>=0.28.0",
+    "python-multipart>=0.0.20",
+    "python-dotenv>=1.0.0",
+    "litellm>=1.75.0",
+    "pandas>=2.0.3",
+    "aiohttp>=3.10.11",
+    "aiofiles>=24.1.0",
+    "aiocsv>=1.3.2",
+    "numpy>=1.24.0",
+    "tenacity>=8.0.0",
+    "tqdm>=4.64.0",
+    "matplotlib>=3.6.0",
+    "nest-asyncio>=1.5.0",
+    "datasets>=2.14.0",
+]
+
+[project.scripts]
+mcp-eval = "mcp_completion.main:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["mcp_completion"]
+
+[dependency-groups]
+dev = [
+    "black>=24.8.0",
+]

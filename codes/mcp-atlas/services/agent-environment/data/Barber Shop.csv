@@ -1,0 +1,32 @@
+Customer Gender,Customer Age,Barber_ID,Service,Price,Customer Satisfaction,Barber Rating
+Male,42,1,Haircut,$15.00,4,4
+Male,37,2,Beard Trim,$8.00,5,4.6
+Female,42,3,Haircut,$12.00,4,4.2
+Male,38,1,Beard Trim,$7.00,5,4.8
+Male,43,2,Beard Trim,$9.00,5,4.8
+Male,48,3,Beard Trim,$8.00,5,4.6
+Female,27,1,Haircut,$12.00,4,4.4
+Female,28,1,Haircut,$12.00,4,4.1
+Male,29,2,Beard Trim,$7.00,5,4.6
+Female,26,3,Haircut,$12.00,4,4.2
+Male,38,1,Shave,$10.00,5,4.9
+Female,27,1,Haircut,$12.00,4,4.4
+Male,28,2,Shave,$8.00,5,4.7
+Male,45,2,Shave,$10.00,5,4.7
+Female,35,3,Haircut,$12.00,4,4.3
+Male,33,1,Shave,$10.00,5,4.9
+Female,29,3,Haircut,$12.00,4,4.1
+Female,32,1,Haircut,$12.00,4,4.2
+Female,42,3,Beard Trim,$8.00,4,4.2
+Female,30,3,Haircut,$12.00,4,4.3
+Female,25,3,Haircut,$12.00,5,4.9
+Female,31,1,Haircut,$12.00,4,4.1
+Male,42,3,Beard Trim,$8.00,4,4.2
+Male,50,2,Haircut,$12.00,4,4
+Male,39,1,Beard Trim,$8.00,5,4.6
+Male,40,2,Shave,$10.00,4,4.1
+Female,33,1,Haircut,$12.00,4,4.4
+Male,34,2,Shave,$10.00,5,4.7
+Female,32,1,Haircut,$12.00,4,4.2
+Male,37,2,Shave,$10.00,5,4.7
+Female,31,1,Haircut,$12.00,4,4.3

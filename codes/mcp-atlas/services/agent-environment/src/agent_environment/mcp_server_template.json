@@ -1,0 +1,304 @@
+{
+  "IF YOU ADD A SERVER": "Keep npx packages in sync with dev_scripts/install_mcp_packages.sh. && You may want to add it to CACHEABLE_SERVERS in main.py",
+  "mcpServers": {
+    "airtable": {
+      "command": "npx",
+      "args": [
+        "@felores/airtable-mcp-server@0.3.0"
+      ],
+      "env": {
+        "AIRTABLE_API_KEY": "${AIRTABLE_API_KEY}"
+      }
+    },
+    "alchemy": {
+      "command": "npx",
+      "args": [
+        "@alchemy/mcp-server@0.1.8"
+      ],
+      "env": {
+        "ALCHEMY_API_KEY": "${ALCHEMY_API_KEY}"
+      }
+    },
+    "arxiv": {
+      "command": "uvx",
+      "args": [
+        "arxiv-mcp-server==0.2.11"
+      ]
+    },
+    "brave-search": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-brave-search@0.6.2"
+      ],
+      "env": {
+        "BRAVE_API_KEY": "${BRAVE_API_KEY}"
+      }
+    },
+    "calculator": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-calculator==0.2.0"
+      ]
+    },
+    "cli-mcp-server": {
+      "command": "uvx",
+      "args": [
+        "cli-mcp-server==0.2.5"
+      ],
+      "env": {
+        "ALLOWED_DIR": "/data",
+        "ALLOWED_COMMANDS": "ls,cat,find",
+        "ALLOWED_FLAGS": "",
+        "MAX_COMMAND_LENGTH": "1024",
+        "COMMAND_TIMEOUT": "30",
+        "ALLOW_SHELL_OPERATORS": "false"
+      }
+    },
+    "clinicaltrialsgov-mcp-server": {
+      "command": "npx",
+      "args": [
+        "clinicaltrialsgov-mcp-server@1.0.8"
+      ],
+      "env": {
+        "MCP_LOG_LEVEL": "info"
+      }
+    },
+    "context7": {
+      "command": "npx",
+      "args": [
+        "@upstash/context7-mcp@1.0.14"
+      ]
+    },
+    "ddg-search": {
+      "command": "uvx",
+      "args": [
+        "duckduckgo-mcp-server==0.1.1"
+      ]
+    },
+    "desktop-commander": {
+      "command": "npx",
+      "args": [
+        "@wonderwhy-er/desktop-commander@0.2.7"
+      ]
+    },
+    "e2b-server": {
+      "command": "npx",
+      "args": [
+        "@e2b/mcp-server@0.2.0"
+      ],
+      "env": {
+        "E2B_API_KEY": "${E2B_API_KEY}"
+      }
+    },
+    "exa": {
+      "command": "npx",
+      "args": [
+        "exa-mcp-server@0.3.10"
+      ],
+      "env": {
+        "EXA_API_KEY": "${EXA_API_KEY}"
+      }
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-fetch==2025.4.7"
+      ]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-filesystem@2025.11.25",
+        "/data"
+      ]
+    },
+    "git": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-git==2025.7.1"
+      ]
+    },
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "https://github.com/geobio/smitheryai-mcp-servers-github"
+      ],
+      "env": {
+        "GITHUB_TOKEN": "${GITHUB_TOKEN}"
+      }
+    },
+    "google-maps": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-google-maps@0.6.2"
+      ],
+      "env": {
+        "GOOGLE_MAPS_API_KEY": "${GOOGLE_MAPS_API_KEY}"
+      }
+    },
+    "google-workspace": {
+      "command": "npx",
+      "args": [
+        "@geobio/google-workspace-server@0.1.0"
+      ],
+      "env": {
+        "GOOGLE_CLIENT_ID": "${GOOGLE_CLIENT_ID}",
+        "GOOGLE_CLIENT_SECRET": "${GOOGLE_CLIENT_SECRET}",
+        "GOOGLE_REFRESH_TOKEN": "${GOOGLE_REFRESH_TOKEN}"
+      }
+    },
+    "lara-translate": {
+      "command": "npx",
+      "args": [
+        "@translated/lara-mcp@0.0.11"
+      ],
+      "env": {
+        "LARA_ACCESS_KEY_ID": "${LARA_ACCESS_KEY_ID}",
+        "LARA_ACCESS_KEY_SECRET": "${LARA_ACCESS_KEY_SECRET}"
+      }
+    },
+    "mcp-code-executor": {
+      "command": "npx",
+      "args": [
+        "@geobio/code_execution_server@0.2.1"
+      ],
+      "env": {
+        "CODE_STORAGE_DIR": "/data/repos/mcp_code_executor_workspace",
+        "ENV_TYPE": "venv-uv",
+        "UV_VENV_PATH": "/data/repos/mcp_code_executor_workspace/.venv"
+      }
+    },
+    "mcp-server-code-runner": {
+      "command": "npx",
+      "args": [
+        "mcp-server-code-runner@0.1.7"
+      ]
+    },
+    "memory": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-memory@2025.8.4"
+      ],
+      "env": {
+        "MEMORY_FILE_PATH": "/data/repos/memory_mcp_server/memories-for-mcp.json"
+      }
+    },
+    "met-museum": {
+      "command": "npx",
+      "args": [
+        "metmuseum-mcp@0.9.2"
+      ]
+    },
+    "mongodb": {
+      "command": "npx",
+      "args": [
+        "mongodb-mcp-server@0.2.0",
+        "--connectionString",
+        "${MONGODB_CONNECTION_STRING}"
+      ]
+    },
+    "national-parks": {
+      "command": "npx",
+      "args": [
+        "mcp-server-nationalparks@1.0.1"
+      ],
+      "env": {
+        "NPS_API_KEY": "${NPS_API_KEY}"
+      }
+    },
+    "notion": {
+      "command": "npx",
+      "args": [
+        "@notionhq/notion-mcp-server@1.8.1"
+      ],
+      "env": {
+        "OPENAPI_MCP_HEADERS": "{\"Authorization\": \"Bearer ${NOTION_TOKEN}\", \"Notion-Version\": \"2022-06-28\" }"
+      }
+    },
+    "open-library": {
+      "command": "npx",
+      "args": [
+        "@geobio/mcp-open-library@0.1.6"
+      ]
+    },
+    "osm-mcp-server": {
+      "command": "uvx",
+      "args": [
+        "osm-mcp-server==0.1.1"
+      ]
+    },
+    "oxylabs": {
+      "command": "uvx",
+      "args": [
+        "oxylabs-mcp==0.4.1"
+      ],
+      "env": {
+        "OXYLABS_USERNAME": "${OXYLABS_USERNAME}",
+        "OXYLABS_PASSWORD": "${OXYLABS_PASSWORD}"
+      }
+    },
+    "pubmed": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/geobio/PubMed-MCP-Server.git",
+        "python",
+        "-m",
+        "pubmed_server"
+      ]
+    },
+    "slack": {
+      "command": "npx",
+      "args": [
+        "slack-mcp-server@1.1.23",
+        "--transport",
+        "stdio"
+      ],
+      "env": {
+        "SLACK_MCP_XOXC_TOKEN": "${SLACK_MCP_XOXC_TOKEN}",
+        "SLACK_MCP_XOXD_TOKEN": "${SLACK_MCP_XOXD_TOKEN}"
+      }
+    },
+    "twelvedata": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-twelve-data==0.2.5",
+        "-k",
+        "${TWELVE_DATA_API_KEY}"
+      ]
+    },
+    "weather": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "https://github.com/geobio/smitheryai-mcp-servers-weather"
+      ]
+    },
+    "weather-data": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/geobio/weather-mcp-server",
+        "weather-mcp-server"
+      ],
+      "env": {
+        "WEATHER_API_KEY": "${WEATHER_API_KEY}"
+      }
+    },
+    "whois": {
+      "command": "npx",
+      "args": [
+        "@bharathvaj/whois-mcp@1.0.1"
+      ]
+    },
+    "wikipedia": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/Rudra-ravi/wikipedia-mcp.git@735590286fbe91f705e97eba25f8272cafba5edb",
+        "wikipedia-mcp"
+      ]
+    }
+  }
+}

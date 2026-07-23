@@ -1,0 +1,363 @@
+project:
+  type: website
+  pre-render:
+   - docs/scripts/generate_config_docs.py
+   - docs/scripts/generate_examples_docs.py
+
+quartodoc:
+  dir: docs/api
+  package: axolotl
+  title: API Reference
+  parser: google
+
+  sections:
+    - title: Core
+      desc: Core functionality for training
+      contents:
+        - train
+        - evaluate
+        - datasets
+        - convert
+        - prompt_tokenizers
+        - logging_config
+        - core.builders.base
+        - core.builders.causal
+        - core.builders.rl
+        - core.training_args
+        - core.chat.messages
+        - core.chat.format.chatml
+        - core.chat.format.llama3x
+        - core.chat.format.shared
+        - core.datasets.chat
+        - core.datasets.transforms.chat_builder
+    - title: CLI
+      desc: Command-line interface
+      contents:
+        - cli.main
+        - cli.train
+        - cli.evaluate
+        - cli.args
+        - cli.art
+        - cli.checks
+        - cli.config
+        - cli.delinearize_llama4
+        - cli.inference
+        - cli.merge_lora
+        - cli.merge_sharded_fsdp_weights
+        - cli.preprocess
+        - cli.quantize
+        - cli.vllm_serve
+        - cli.cloud.base
+        - cli.cloud.modal_
+        - cli.utils
+        - cli.utils.args
+        - cli.utils.fetch
+        - cli.utils.load
+        - cli.utils.sweeps
+        - cli.utils.train
+    - title: Trainers
+      desc: Training implementations
+      contents:
+        - core.trainers.base
+        - core.trainers.trl
+        - core.trainers.mamba
+        - core.trainers.dpo.trainer
+        - core.trainers.grpo.trainer
+        - core.trainers.grpo.sampler
+        - core.trainers.utils
+    - title: Model Loading
+      desc: Functionality for loading and patching models, tokenizers, etc.
+      contents:
+        - loaders.model
+        - loaders.tokenizer
+        - loaders.processor
+        - loaders.adapter
+        - loaders.patch_manager
+        - loaders.constants
+    - title: Mixins
+      desc: Mixin classes for augmenting trainers
+      contents:
+        - core.trainers.mixins.optimizer
+        - core.trainers.mixins.rng_state_loader
+        - core.trainers.mixins.scheduler
+    - title: Context Managers
+      desc: Context managers for altering trainer behaviors
+      contents:
+        - utils.ctx_managers.sequence_parallel
+    - title: Prompt Strategies
+      desc: Prompt formatting strategies
+      contents:
+        - prompt_strategies.base
+        - prompt_strategies.chat_template
+        - prompt_strategies.alpaca_chat
+        - prompt_strategies.alpaca_instruct
+        - prompt_strategies.alpaca_w_system
+        - prompt_strategies.user_defined
+        - prompt_strategies.llama2_chat
+        - prompt_strategies.completion
+        - prompt_strategies.input_output
+        - prompt_strategies.stepwise_supervised
+        - prompt_strategies.metharme
+        - prompt_strategies.orcamini
+        - prompt_strategies.pygmalion
+        - prompt_strategies.messages.chat
+        - prompt_strategies.dpo.chat_template
+        - prompt_strategies.dpo.llama3
+        - prompt_strategies.dpo.chatml
+        - prompt_strategies.dpo.zephyr
+        - prompt_strategies.dpo.user_defined
+        - prompt_strategies.dpo.passthrough
+        - prompt_strategies.kto.llama3
+        - prompt_strategies.kto.chatml
+        - prompt_strategies.kto.user_defined
+        - prompt_strategies.orpo.chat_template
+        - prompt_strategies.bradley_terry.llama3
+    - title: Kernels
+      desc: Low-level performance optimizations
+      contents:
+        - kernels.lora
+        - kernels.geglu
+        - kernels.swiglu
+        - kernels.quantize
+        - kernels.utils
+    - title: Monkey Patches
+      desc: Runtime patches for model optimizations
+      contents:
+        - monkeypatch.llama_attn_hijack_flash
+        - monkeypatch.llama_attn_hijack_xformers
+        - monkeypatch.mistral_attn_hijack_flash
+        - monkeypatch.multipack
+        - monkeypatch.relora
+        - monkeypatch.llama_expand_mask
+        - monkeypatch.lora_kernels
+        - monkeypatch.utils
+        - monkeypatch.btlm_attn_hijack_flash
+        - monkeypatch.llama_patch_multipack
+        - monkeypatch.stablelm_attn_hijack_flash
+        - monkeypatch.trainer_fsdp_optim
+        - monkeypatch.transformers_fa_utils
+        - monkeypatch.unsloth_
+        - monkeypatch.data.batch_dataset_fetcher
+        - monkeypatch.mixtral
+        - monkeypatch.gradient_checkpointing.offload_cpu
+        - monkeypatch.gradient_checkpointing.offload_disk
+    - title: Utils
+      desc: Utility functions
+      contents:
+        - utils.tokenization
+        - utils.chat_templates
+        - utils.lora
+        - utils.model_shard_quant
+        - utils.bench
+        - utils.freeze
+        - utils.trainer
+        - utils.schedulers
+        - utils.distributed
+        - utils.dict
+        - utils.optimizers.adopt
+        - utils.data.streaming
+        - utils.data.sft
+        - utils.quantization
+    - title: Schemas
+      desc: Pydantic data models for Axolotl config
+      contents:
+        - utils.schemas.config
+        - utils.schemas.model
+        - utils.schemas.training
+        - utils.schemas.datasets
+        - utils.schemas.peft
+        - utils.schemas.trl
+        - utils.schemas.multimodal
+        - utils.schemas.integrations
+        - utils.schemas.enums
+        - utils.schemas.utils
+    - title: Integrations
+      desc: Third-party integrations and extensions
+      contents:
+        - integrations.base
+        - integrations.cut_cross_entropy.args
+        - integrations.grokfast.optimizer
+        - integrations.kd.trainer
+        - integrations.liger.args
+        - integrations.lm_eval.args
+        - integrations.spectrum.args
+    - title: Common
+      desc: Common utilities and shared functionality
+      contents:
+        - common.architectures
+        - common.const
+        - common.datasets
+    - title: Models
+      desc: Custom model implementations
+      contents:
+        - models.mamba.modeling_mamba
+    - title: Data Processing
+      desc: Data processing utilities
+      contents:
+        - utils.collators.core
+        - utils.collators.batching
+        - utils.collators.mamba
+        - utils.collators.mm_chat
+        - utils.samplers.multipack
+    - title: Callbacks
+      desc: Training callbacks
+      contents:
+        - utils.callbacks.perplexity
+        - utils.callbacks.profiler
+        - utils.callbacks.lisa
+        - utils.callbacks.mlflow_
+        - utils.callbacks.comet_
+        - utils.callbacks.qat
+website:
+  title: "Axolotl"
+  description: "We make fine-tuning accessible, scalable, and fun"
+  favicon: favicon.jpg
+
+  google-analytics: "G-9KYCVJBNMQ"
+
+  navbar:
+    logo: image/axolotl_logo_digital_white.svg
+    title: false
+    background: dark
+    pinned: false
+    collapse: false
+    tools:
+    - icon: twitter
+      href: https://twitter.com/axolotl_ai
+    - icon: github
+      href: https://github.com/axolotl-ai-cloud/axolotl/
+    - icon: discord
+      href: https://discord.gg/7m9sfhzaf3
+
+  sidebar:
+      pinned: true
+      collapse-level: 2
+      style: docked
+      contents:
+        - text: Home
+          href: index.qmd
+
+        - section: "Getting Started"
+          contents:
+            - docs/getting-started.qmd
+            - docs/installation.qmd
+            - docs/inference.qmd
+            - section: "Model Guides"
+              contents:
+                - docs/models/kimi-linear.qmd
+                - docs/models/plano.qmd
+                - docs/models/mimo.qmd
+                - docs/models/internvl3_5.qmd
+                - docs/models/olmo3.qmd
+                - docs/models/trinity.qmd
+                - docs/models/arcee.qmd
+                - docs/models/mistral.qmd
+                - section: "Ministral3"
+                  contents:
+                    - docs/models/ministral3.qmd
+                    - docs/models/ministral3/think.qmd
+                    - docs/models/ministral3/vision.qmd
+                - section: "Magistral"
+                  contents:
+                    - docs/models/magistral.qmd
+                    - docs/models/magistral/think.qmd
+                    - docs/models/magistral/vision.qmd
+                - docs/models/ministral.qmd
+                - docs/models/mistral-small.qmd
+                - docs/models/voxtral.qmd
+                - docs/models/devstral.qmd
+                - docs/models/llama-4.qmd
+                - docs/models/llama-2.qmd
+                - docs/models/qwen3-next.qmd
+                - docs/models/qwen3.qmd
+                - docs/models/gemma3n.qmd
+                - docs/models/apertus.qmd
+                - docs/models/gpt-oss.qmd
+                - docs/models/seed-oss.qmd
+                - docs/models/phi.qmd
+                - docs/models/smolvlm2.qmd
+                - docs/models/granite4.qmd
+                - docs/models/LiquidAI.qmd
+                - docs/models/hunyuan.qmd
+                - docs/models/jamba.qmd
+                - docs/models/orpheus.qmd
+
+            - docs/cli.qmd
+            - docs/telemetry.qmd
+            - docs/config-reference.qmd
+            - text: "API Reference"
+              href: docs/api
+
+        - section: "Dataset Formats"
+          contents: docs/dataset-formats/*
+
+        - section: "Deployments"
+          contents:
+            - docs/docker.qmd
+            - docs/multi-gpu.qmd
+            - docs/multi-node.qmd
+            - docs/ray-integration.qmd
+            - docs/amd_hpc.qmd
+            - docs/mac.qmd
+
+        - section: "How To Guides"
+          contents:
+            - docs/multimodal.qmd
+            - docs/rlhf.qmd
+            - docs/reward_modelling.qmd
+            - docs/lr_groups.qmd
+            - docs/lora_optims.qmd
+            - docs/dataset_loading.qmd
+            - docs/qat.qmd
+            - docs/quantize.qmd
+            - docs/optimizations.qmd
+
+        - section: "Core Concepts"
+          contents:
+            - docs/batch_vs_grad.qmd
+            - docs/dataset_preprocessing.qmd
+            - docs/streaming.qmd
+            - docs/multipack.qmd
+            - docs/mixed_precision.qmd
+            - docs/optimizers.qmd
+
+        - section: "Advanced Features"
+          contents:
+            - docs/fsdp_qlora.qmd
+            - docs/unsloth.qmd
+            - docs/torchao.qmd
+            - docs/custom_integrations.qmd
+            - docs/sequence_parallelism.qmd
+            - docs/gradient_checkpointing.qmd
+            - docs/nd_parallelism.qmd
+
+        - section: "Troubleshooting"
+          contents:
+            - docs/faq.qmd
+            - docs/debugging.qmd
+            - docs/nccl.qmd
+
+format:
+  html:
+    theme: darkly
+    css: styles.css
+    toc: true
+    # Enable better handling of line breaks in markdown
+    preserve-tabs: true
+    html-math-method: mathjax
+    # Improved markdown processing options
+    md-extensions:
+      - markdown_it
+      - def_list
+      - attr_list
+      - fenced_divs
+      - tables
+      - html_admonition
+      - lineblocks
+      - fancy_lists
+    # Control whitespace handling
+    whitespace: preserve
+    # Process newlines in paragraphs
+    wrap: preserve
+    # Better line break handling
+    preserve-linebreaks: true

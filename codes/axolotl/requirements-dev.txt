@@ -1,0 +1,8 @@
+black
+mypy
+pre-commit
+types-requests
+quartodoc
+jupyter
+blobfile
+tiktoken

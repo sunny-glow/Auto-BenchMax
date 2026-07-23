@@ -1,0 +1,40 @@
+{
+  "5c6d7e8f9a": [
+    "calculator",
+    "filesystem"
+  ],
+  "8d9eaf0b1c": [
+    "ddg-search",
+    "filesystem"
+  ],
+  "a0b1c2d3e4": [
+    "desktop-commander",
+    "mcp-server-code-runner"
+  ],
+  "e5f6d7c8b9": [
+    "filesystem",
+    "git"
+  ],
+  "3c4d5e6f7a": [
+    "ddg-search",
+    "osm-mcp-server"
+  ],
+  "9d0e1f2a3b": [
+    "desktop-commander",
+    "filesystem"
+  ],
+  "4b5c6d7e8f": [
+    "calculator"
+  ],
+  "c6d7e8f9a0": [
+    "filesystem",
+    "memory"
+  ],
+  "7a8b9c0d1e": [
+    "osm-mcp-server"
+  ],
+  "2b3c4d5e6f": [
+    "ddg-search",
+    "filesystem"
+  ]
+}

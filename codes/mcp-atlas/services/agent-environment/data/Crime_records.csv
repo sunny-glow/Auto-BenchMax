@@ -1,0 +1,72 @@
+Crime_ID,Date_Reported,Crime_Type,Location,Arrest_Made,Suspect_Age,Suspect_Gender,Victim_Age,Victim_Gender,Crime_Severity
+CRIME679,2014-05-10,Theft,Shopping Mall,Yes,27,Male,35,Female,Moderate
+CRIME680,2014-06-22,Assault,Park,No,19,Female,45,Male,Severe
+CRIME681,2014-07-15,Burglary,Residential Area,Yes,35,Male,42,Female,High
+CRIME682,2014-08-03,Robbery,Convenience Store,Yes,40,Male,28,Male,High
+CRIME683,2014-09-18,Vandalism,Public Library,No,17,Male,55,Female,Low
+CRIME684,2014-10-05,Fraud,Online,No,30,Female,40,Female,Moderate
+CRIME685,2014-11-12,Drug Trafficking,Street,Yes,50,Male,29,Male,Severe
+CRIME686,2014-12-09,Kidnapping,Residential Area,No,23,Male,18,Female,High
+CRIME687,2015-01-20,Cybercrime,Financial Institution,Yes,28,Female,55,Male,Moderate
+CRIME688,2016-09-02,Assault,Bar,Yes,29,Male,32,Female,Moderate
+CRIME689,2016-10-15,Fraud,Telephone,No,45,Female,55,Female,Moderate
+CRIME690,2016-11-09,Robbery,Bank,Yes,35,Male,40,Male,High
+CRIME691,2016-12-18,Vandalism,School,No,18,Female,60,Male,Low
+CRIME692,2017-01-07,Cybercrime,Social Media,Yes,22,Male,28,Female,Moderate
+CRIME693,2017-02-03,Kidnapping,Parking Lot,No,40,Female,25,Female,High
+CRIME694,2017-03-20,Theft,Gas Station,Yes,30,Male,35,Male,Moderate
+CRIME695,2017-04-11,Drug Trafficking,Warehouse,Yes,38,Female,45,Male,Severe
+CRIME696,2017-05-29,Arson,Residential Area,No,27,Male,50,Female,High
+CRIME697,2017-06-14,Shoplifting,Department Store,Yes,20,Female,30,Male,Low
+CRIME698,2017-07-22,Assault,Restaurant,Yes,32,Male,40,Female,Moderate
+CRIME699,2017-08-05,Burglary,Office Building,Yes,28,Female,45,Male,High
+CRIME700,2017-09-18,Fraud,Online,No,50,Male,60,Female,Moderate
+CRIME701,2017-10-09,Vandalism,Public Park,No,21,Male,65,Male,Low
+CRIME702,2017-11-24,Cybercrime,Financial Institution,Yes,35,Female,55,Male,Moderate
+CRIME703,2017-12-15,Robbery,Convenience Store,Yes,25,Male,30,Female,High
+CRIME704,2018-01-28,Kidnapping,Shopping Mall,No,42,Male,20,Female,High
+CRIME705,2018-02-11,Theft,Supermarket,Yes,33,Female,38,Female,Moderate
+CRIME706,2018-03-09,Drug Trafficking,Street,Yes,48,Male,25,Male,Severe
+CRIME707,2018-04-17,Arson,Warehouse,No,30,Male,35,Female,High
+CRIME708,2018-05-03,Assault,Park,Yes,28,Female,30,Male,Moderate
+CRIME709,2018-06-28,Burglary,Residential Area,Yes,37,Male,42,Female,High
+CRIME710,2018-07-11,Fraud,Telephone,No,55,Female,60,Female,Moderate
+CRIME711,2018-08-19,Vandalism,School,No,24,Male,65,Male,Low
+CRIME712,2018-09-05,Cybercrime,Social Media,Yes,29,Male,55,Female,Moderate
+CRIME713,2018-10-10,Kidnapping,Parking Lot,No,45,Female,30,Female,High
+CRIME714,2018-11-27,Theft,Gas Station,Yes,31,Male,35,Male,Moderate
+CRIME715,2018-12-14,Drug Trafficking,Warehouse,Yes,40,Female,45,Male,Severe
+CRIME716,2019-01-30,Arson,Residential Area,No,29,Male,50,Female,High
+CRIME718,2019-03-20,Assault,Bar,Yes,34,Male,37,Female,Moderate
+CRIME719,2019-04-09,Fraud,Telephone,No,48,Female,58,Female,Moderate
+CRIME720,2019-05-14,Robbery,Bank,Yes,37,Male,42,Male,High
+CRIME721,2019-06-28,Vandalism,School,No,19,Female,62,Male,Low
+CRIME722,2019-07-11,Cybercrime,Social Media,Yes,25,Male,30,Female,Moderate
+CRIME723,2019-08-25,Kidnapping,Parking Lot,No,42,Female,27,Female,High
+CRIME724,2019-09-18,Theft,Gas Station,Yes,32,Male,38,Male,Moderate
+CRIME725,2019-10-30,Drug Trafficking,Warehouse,Yes,40,Female,48,Male,Severe
+CRIME726,2019-11-12,Arson,Residential Area,No,32,Male,55,Female,High
+CRIME727,2019-12-29,Shoplifting,Department Store,Yes,23,Female,35,Male,Low
+CRIME728,2020-01-15,Assault,Restaurant,Yes,37,Male,45,Female,Moderate
+CRIME729,2020-02-09,Burglary,Office Building,Yes,31,Female,48,Male,High
+CRIME730,2020-03-18,Fraud,Online,No,52,Male,62,Female,Moderate
+CRIME731,2020-04-07,Vandalism,Public Park,No,22,Male,67,Male,Low
+CRIME732,2020-05-22,Cybercrime,Financial Institution,Yes,37,Female,58,Male,Moderate
+CRIME733,2020-06-14,Robbery,Convenience Store,Yes,27,Male,32,Female,High
+CRIME734,2020-07-30,Kidnapping,Shopping Mall,No,45,Male,22,Female,High
+CRIME735,2020-08-17,Theft,Supermarket,Yes,35,Female,40,Female,Moderate
+CRIME736,2020-09-28,Drug Trafficking,Street,Yes,50,Male,27,Male,Severe
+CRIME737,2020-11-05,Assault,Park,Yes,30,Female,32,Male,Moderate
+CRIME738,2020-12-19,Burglary,Residential Area,Yes,28,Male,45,Female,High
+CRIME739,2021-01-02,Fraud,Telephone,No,60,Female,65,Female,Moderate
+CRIME740,2021-02-14,Robbery,Bank,Yes,39,Male,44,Male,High
+CRIME741,2021-03-28,Vandalism,School,No,20,Female,68,Male,Low
+CRIME742,2021-04-10,Cybercrime,Social Media,Yes,27,Male,32,Female,Moderate
+CRIME743,2021-05-15,Kidnapping,Parking Lot,No,48,Female,25,Female,High
+CRIME744,2021-06-29,Theft,Gas Station,Yes,34,Male,40,Male,Moderate
+CRIME745,2021-07-12,Drug Trafficking,Warehouse,Yes,42,Female,50,Male,Severe
+CRIME746,2021-08-27,Arson,Residential Area,No,33,Male,55,Female,High
+CRIME747,2021-09-10,Shoplifting,Department Store,Yes,25,Female,38,Male,Low
+CRIME748,2021-10-25,Assault,Restaurant,Yes,38,Male,47,Female,Moderate
+CRIME749,2021-11-07,Fraud,Online,No,55,Male,65,Female,Moderate
+CRIME750,2021-12-18,Vandalism,Public Park,No,24,Male,70,Male,Low

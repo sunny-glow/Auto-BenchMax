@@ -1,0 +1,173 @@
+---
+title: "Installation"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+execute:
+  enabled: false
+---
+
+This guide covers all the ways you can install and set up Axolotl for your environment.
+
+## Requirements {#sec-requirements}
+
+- NVIDIA GPU (Ampere architecture or newer for `bf16` and Flash Attention) or AMD GPU
+- Python ≥3.11
+- PyTorch ≥2.6.0
+
+## Installation Methods {#sec-installation-methods}
+
+::: {.callout-important}
+Please make sure to have Pytorch installed before installing Axolotl in your local environment.
+
+Follow the instructions at: [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/)
+:::
+
+::: {.callout-important}
+For Blackwell GPUs, please use Pytorch 2.9.1 and CUDA 12.8.
+:::
+
+### PyPI Installation (Recommended) {#sec-pypi}
+
+```{.bash}
+pip3 install -U packaging setuptools wheel ninja
+pip3 install --no-build-isolation axolotl[flash-attn,deepspeed]
+```
+
+We use `--no-build-isolation` in order to detect the installed PyTorch version (if
+installed) in order not to clobber it, and so that we set the correct version of
+dependencies that are specific to the PyTorch version or other installed
+co-dependencies.
+
+### uv Installation {#sec-uv}
+
+uv is a fast, reliable Python package installer and resolver built in Rust. It offers significant performance improvements over pip and provides better dependency resolution, making it an excellent choice for complex environments.
+
+Install uv if not already installed
+```{.bash}
+curl -LsSf https://astral.sh/uv/install.sh | sh
+source $HOME/.local/bin/env
+```
+
+Choose your CUDA version to use with PyTorch; e.g. `cu124`, `cu126`, `cu128`,
+then create the venv and activate
+```{.bash}
+export UV_TORCH_BACKEND=cu126
+uv venv --no-project --relocatable
+source .venv/bin/activate
+```
+
+Install PyTorch
+- PyTorch 2.6.0 recommended
+```{.bash}
+uv pip install packaging setuptools wheel
+uv pip install torch==2.6.0
+uv pip install awscli pydantic
+```
+
+Install axolotl from PyPi
+```{.bash}
+uv pip install --no-build-isolation axolotl[deepspeed,flash-attn]
+
+# optionally install with vLLM if you're using torch==2.6.0 and want to train w/ GRPO
+uv pip install --no-build-isolation axolotl[deepspeed,flash-attn,vllm]
+```
+
+### Edge/Development Build {#sec-edge-build}
+
+For the latest features between releases:
+
+```{.bash}
+git clone https://github.com/axolotl-ai-cloud/axolotl.git
+cd axolotl
+pip3 install -U packaging setuptools wheel ninja
+pip3 install --no-build-isolation -e '.[flash-attn,deepspeed]'
+```
+
+### Docker {#sec-docker}
+
+```{.bash}
+docker run --gpus '"all"' --rm -it axolotlai/axolotl:main-latest
+```
+
+For development with Docker:
+
+```{.bash}
+docker compose up -d
+```
+
+::: {.callout-tip}
+### Advanced Docker Configuration
+```{.bash}
+docker run --privileged --gpus '"all"' --shm-size 10g --rm -it \
+  --name axolotl --ipc=host \
+  --ulimit memlock=-1 --ulimit stack=67108864 \
+  --mount type=bind,src="${PWD}",target=/workspace/axolotl \
+  -v ${HOME}/.cache/huggingface:/root/.cache/huggingface \
+  axolotlai/axolotl:main-latest
+```
+:::
+
+::: {.callout-important}
+For Blackwell GPUs, please use `axolotlai/axolotl:main-py3.11-cu128-2.9.1` or the cloud variant `axolotlai/axolotl-cloud:main-py3.11-cu128-2.9.1`.
+:::
+
+Please refer to the [Docker documentation](docker.qmd) for more information on the different Docker images that are available.
+
+## Cloud Environments {#sec-cloud}
+
+### Cloud GPU Providers {#sec-cloud-gpu}
+
+For providers supporting Docker:
+
+- Use `axolotlai/axolotl-cloud:main-latest`
+- Available on:
+    - [RunPod](https://runpod.io/gsc?template=v2ickqhz9s&ref=6i7fkpdz)
+    - [Vast.ai](https://cloud.vast.ai?ref_id=62897&template_id=bdd4a49fa8bce926defc99471864cace&utm_source=axolotl&utm_medium=partner&utm_campaign=template_launch_july2025&utm_content=docs_link)
+    - [PRIME Intellect](https://app.primeintellect.ai/dashboard/create-cluster?image=axolotl&location=Cheapest&security=Cheapest&show_spot=true)
+    - [Modal](https://www.modal.com?utm_source=github&utm_medium=github&utm_campaign=axolotl)
+    - [Novita](https://novita.ai/gpus-console?templateId=311)
+    - [JarvisLabs.ai](https://jarvislabs.ai/templates/axolotl)
+    - [Latitude.sh](https://latitude.sh/blueprint/989e0e79-3bf6-41ea-a46b-1f246e309d5c)
+
+### Google Colab {#sec-colab}
+
+[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/axolotl-ai-cloud/axolotl/blob/main/examples/colab-notebooks/colab-axolotl-example.ipynb#scrollTo=msOCO4NRmRLa)
+
+## Platform-Specific Instructions {#sec-platform-specific}
+
+### macOS {#sec-macos}
+
+```{.bash}
+pip3 install --no-build-isolation -e '.'
+```
+
+See @sec-troubleshooting for Mac-specific issues.
+
+### Windows {#sec-windows}
+
+::: {.callout-important}
+We recommend using WSL2 (Windows Subsystem for Linux) or Docker.
+:::
+
+## Environment Managers {#sec-env-managers}
+
+### Conda/Pip venv {#sec-conda}
+
+1. Install Python ≥3.11
+2. Install PyTorch: https://pytorch.org/get-started/locally/
+3. Install Axolotl:
+   ```{.bash}
+   pip3 install -U packaging setuptools wheel ninja
+   pip3 install --no-build-isolation -e '.[flash-attn,deepspeed]'
+   ```
+4. (Optional) Login to Hugging Face:
+   ```{.bash}
+   huggingface-cli login
+   ```
+
+## Troubleshooting {#sec-troubleshooting}
+
+If you encounter installation issues, see our [FAQ](faq.qmd) and [Debugging Guide](debugging.qmd).

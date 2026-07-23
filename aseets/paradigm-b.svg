@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 560" font-family="'Comic Sans MS','Chalkboard SE','Baloo 2',cursive,sans-serif">
+  <defs>
+    <filter id="dsb" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="0" flood-color="#1f2933" flood-opacity="0.18"/>
+    </filter>
+    <linearGradient id="gbA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe089"/><stop offset="1" stop-color="#f7b733"/>
+    </linearGradient>
+    <linearGradient id="gbB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd479"/><stop offset="1" stop-color="#eea11a"/>
+    </linearGradient>
+    <marker id="cyc" markerWidth="10" markerHeight="10" refX="5" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#b8860b"/>
+    </marker>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="520" height="560" rx="26" fill="#fbf7ef"/>
+  <rect x="8" y="8" width="504" height="544" rx="22" fill="none" stroke="#1f2933" stroke-width="4"/>
+
+  <!-- title -->
+  <text x="260" y="48" text-anchor="middle" font-size="26" font-weight="bold" fill="#1f2933">Paradigm B</text>
+  <text x="260" y="73" text-anchor="middle" font-size="18" font-weight="bold" fill="#e8590c">Construct-then-Verify  ·  for rule-based</text>
+  <text x="260" y="93" text-anchor="middle" font-size="12.5" font-style="italic" fill="#6b7280">build the gold first, then prove it scores</text>
+
+  <!-- ===== the closed verify loop (big ring) ===== -->
+  <!-- ring guide -->
+  <circle cx="260" cy="235" r="108" fill="none" stroke="#f0d290" stroke-width="30"/>
+  <!-- rotating arrows on the ring -->
+  <path d="M 260 127 A 108 108 0 0 1 368 235" fill="none" stroke="#b8860b" stroke-width="5" marker-end="url(#cyc)"/>
+  <path d="M 368 235 A 108 108 0 0 1 260 343" fill="none" stroke="#b8860b" stroke-width="5" marker-end="url(#cyc)"/>
+  <path d="M 260 343 A 108 108 0 0 1 152 235" fill="none" stroke="#e8590c" stroke-width="5" marker-end="url(#cyc)"/>
+  <path d="M 152 235 A 108 108 0 0 1 260 127" fill="none" stroke="#b8860b" stroke-width="5" marker-end="url(#cyc)"/>
+
+  <!-- node: CONSTRUCT (top) -->
+  <g filter="url(#dsb)">
+    <rect x="182" y="103" width="156" height="52" rx="14" fill="url(#gbA)" stroke="#1f2933" stroke-width="3.5"/>
+  </g>
+  <text x="260" y="126" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f2933">CONSTRUCT</text>
+  <text x="260" y="144" text-anchor="middle" font-size="10.5" fill="#4b5563">sample legal entities → gold</text>
+
+  <!-- node: VERIFY (bottom) -->
+  <g filter="url(#dsb)">
+    <rect x="182" y="315" width="156" height="52" rx="14" fill="url(#gbB)" stroke="#1f2933" stroke-width="3.5"/>
+  </g>
+  <text x="260" y="338" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f2933">VERIFY</text>
+  <text x="260" y="356" text-anchor="middle" font-size="10.5" fill="#4b5563">replay through the evaluator</text>
+
+  <!-- right side label: pass polarities -->
+  <text x="392" y="205" font-size="12" font-weight="bold" fill="#2f9e44">✓ pos = 1</text>
+  <text x="392" y="223" font-size="12" font-weight="bold" fill="#2f9e44">✓ neg = 0</text>
+  <text x="392" y="243" font-size="10.5" fill="#4b5563">must</text>
+  <text x="392" y="256" font-size="10.5" fill="#4b5563">discriminate</text>
+
+  <!-- left side label: fail -> re-sample (the loop repeats) -->
+  <text x="128" y="205" text-anchor="end" font-size="12" font-weight="bold" fill="#e8590c">illegal?</text>
+  <text x="128" y="223" text-anchor="end" font-size="11" fill="#e8590c">re-sample</text>
+  <text x="128" y="240" text-anchor="end" font-size="11" fill="#e8590c">&amp; rebuild</text>
+
+  <!-- center hub label -->
+  <text x="260" y="230" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#b8860b">construct-time</text>
+  <text x="260" y="247" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#b8860b">verify loop</text>
+
+  <!-- exit arrow: only a scorable gold leaves the loop, downward -->
+  <line x1="260" y1="367" x2="260" y2="404" stroke="#1f2933" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="252,396 260,410 268,396" fill="#1f2933"/>
+  <text x="278" y="390" font-size="11" font-weight="bold" fill="#2f9e44">scorable ↓</text>
+
+  <!-- PHRASE + ROLL row -->
+  <g filter="url(#dsb)">
+    <rect x="70" y="412" width="170" height="50" rx="14" fill="#fff3c4" stroke="#1f2933" stroke-width="3.5"/>
+  </g>
+  <text x="155" y="434" text-anchor="middle" font-size="14" font-weight="bold" fill="#1f2933">PHRASE</text>
+  <text x="155" y="452" text-anchor="middle" font-size="10.5" fill="#4b5563">every detail verbatim</text>
+
+  <line x1="240" y1="437" x2="278" y2="437" stroke="#1f2933" stroke-width="3.5" stroke-linecap="round"/>
+  <polygon points="270,429 284,437 270,445" fill="#1f2933"/>
+
+  <g filter="url(#dsb)">
+    <rect x="284" y="412" width="166" height="50" rx="14" fill="#fff3c4" stroke="#1f2933" stroke-width="3.5"/>
+  </g>
+  <text x="367" y="434" text-anchor="middle" font-size="14" font-weight="bold" fill="#1f2933">ROLL</text>
+  <text x="367" y="452" text-anchor="middle" font-size="10.5" fill="#4b5563">keep reward==1</text>
+
+  <!-- down to SFT -->
+  <line x1="367" y1="462" x2="367" y2="486" stroke="#1f2933" stroke-width="3.5" stroke-linecap="round"/>
+  <polygon points="359,478 367,492 375,478" fill="#1f2933"/>
+
+  <rect x="150" y="494" width="220" height="46" rx="23" fill="url(#gbB)" stroke="#1f2933" stroke-width="4" filter="url(#dsb)"/>
+  <text x="260" y="522" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f2933">SFT → Train → Eval</text>
+</svg>

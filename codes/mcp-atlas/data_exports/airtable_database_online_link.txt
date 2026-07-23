@@ -1,0 +1,3 @@
+https://airtable.com/appIF9byLfQwdHqE2/shr1KTZOgPl0qQmA8
+
+Then click "copy base" at the top to copy it into your own airtable instance.

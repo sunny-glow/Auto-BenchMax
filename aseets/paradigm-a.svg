@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 560" font-family="'Comic Sans MS','Chalkboard SE','Baloo 2',cursive,sans-serif">
+  <defs>
+    <filter id="dsa" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="0" flood-color="#1f2933" flood-opacity="0.18"/>
+    </filter>
+    <linearGradient id="funnel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fdce8"/>
+      <stop offset="1" stop-color="#2bb3c9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="520" height="560" rx="26" fill="#fbf7ef"/>
+  <rect x="8" y="8" width="504" height="544" rx="22" fill="none" stroke="#1f2933" stroke-width="4"/>
+
+  <!-- title -->
+  <text x="260" y="48" text-anchor="middle" font-size="26" font-weight="bold" fill="#1f2933">Paradigm A</text>
+  <text x="260" y="73" text-anchor="middle" font-size="18" font-weight="bold" fill="#2bb3c9">Execute-then-Extract  ·  for LLM-judged</text>
+  <text x="260" y="93" text-anchor="middle" font-size="12.5" font-style="italic" fill="#6b7280">trust execution, not generation</text>
+
+  <!-- lots of candidates entering (scattered chips) -->
+  <g font-size="11" fill="#1f2933">
+    <rect x="120" y="112" width="52" height="20" rx="6" fill="#e6f8fb" stroke="#1f2933" stroke-width="2"/>
+    <rect x="182" y="112" width="52" height="20" rx="6" fill="#e6f8fb" stroke="#1f2933" stroke-width="2"/>
+    <rect x="244" y="112" width="52" height="20" rx="6" fill="#e6f8fb" stroke="#1f2933" stroke-width="2"/>
+    <rect x="306" y="112" width="52" height="20" rx="6" fill="#e6f8fb" stroke="#1f2933" stroke-width="2"/>
+    <rect x="151" y="136" width="52" height="20" rx="6" fill="#e6f8fb" stroke="#1f2933" stroke-width="2"/>
+    <rect x="213" y="136" width="52" height="20" rx="6" fill="#e6f8fb" stroke="#1f2933" stroke-width="2"/>
+    <rect x="275" y="136" width="52" height="20" rx="6" fill="#e6f8fb" stroke="#1f2933" stroke-width="2"/>
+  </g>
+  <text x="378" y="128" font-size="12.5" font-weight="bold" fill="#1f8fa3">generate</text>
+  <text x="378" y="145" font-size="11" fill="#6b7280">prompt+tools,</text>
+  <text x="378" y="159" font-size="11" fill="#6b7280">no gold yet</text>
+
+  <!-- the funnel body -->
+  <path d="M 120 172 L 400 172 L 305 300 L 305 372 L 215 372 L 215 300 Z"
+        fill="url(#funnel)" stroke="#1f2933" stroke-width="4" filter="url(#dsa)"/>
+
+  <!-- label: EXECUTE band across the wide part -->
+  <text x="260" y="212" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff">EXECUTE</text>
+  <text x="260" y="234" text-anchor="middle" font-size="12" fill="#eafaff">roll every candidate</text>
+  <text x="260" y="250" text-anchor="middle" font-size="12" fill="#eafaff">in the REAL env</text>
+
+  <!-- label: FILTER at the neck -->
+  <text x="260" y="288" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d47">FILTER</text>
+
+  <!-- discard splashing off the right of the neck -->
+  <path d="M 305 320 C 350 320 370 330 402 344" fill="none" stroke="#c92a2a" stroke-width="3.5" stroke-linecap="round"/>
+  <polygon points="398,336 410,347 394,352" fill="#c92a2a"/>
+  <g font-size="10.5" fill="#c92a2a">
+    <text x="412" y="330" font-size="12" font-weight="bold">discarded</text>
+    <text x="412" y="347">empty answer</text>
+    <text x="412" y="361">"not found"</text>
+    <text x="412" y="375">&lt; 3 claims</text>
+  </g>
+
+  <!-- survivors dripping out the bottom -->
+  <circle cx="248" cy="398" r="9" fill="#ffd479" stroke="#1f2933" stroke-width="2.5"/>
+  <circle cx="272" cy="398" r="9" fill="#ffd479" stroke="#1f2933" stroke-width="2.5"/>
+  <circle cx="260" cy="418" r="9" fill="#ffd479" stroke="#1f2933" stroke-width="2.5"/>
+
+  <!-- survivors pill -->
+  <rect x="130" y="440" width="260" height="52" rx="26" fill="#fff3c4" stroke="#1f2933" stroke-width="4" filter="url(#dsa)"/>
+  <text x="260" y="463" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f2933">real survivors → SFT</text>
+  <text x="260" y="482" text-anchor="middle" font-size="11.5" fill="#4b5563">entities tool-verified, answers checkable</text>
+
+  <!-- iterate curl -->
+  <path d="M 130 466 C 70 466 70 150 150 150" fill="none" stroke="#1f8fa3" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="8 6"/>
+  <polygon points="144,144 154,152 143,158" fill="#1f8fa3"/>
+  <text x="52" y="308" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1f8fa3" transform="rotate(-90 52 308)">iterate ×N · 19 → 40 → 50+</text>
+</svg>

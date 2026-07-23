@@ -1,0 +1,1256 @@
+================================================================================
+EXCLUDED TASKS REPORT
+================================================================================
+
+Timestamp: 2026-07-19 02:40:12
+Input source: ScaleAI/MCP-Atlas
+Filter enabled: --filter_for_enabled_servers
+
+Reason for exclusion:
+Tasks were filtered out because their ground truth trajectories used MCP servers
+that are not currently enabled (missing API keys).
+
+Available servers (20):
+arxiv, calculator, cli-mcp-server, clinicaltrialsgov-mcp-server, context7, ddg-search, desktop-commander, fetch, filesystem, git, mcp-code-executor, mcp-server-code-runner, memory, met-museum, open-library, osm-mcp-server, pubmed, weather, whois, wikipedia
+
+================================================================================
+EXCLUDED TASKS (411 total)
+================================================================================
+
+Task 689f4d693e212e8ef3390731
+  Missing servers: github
+
+Task 688a441c1a0d2e5c93853e76
+  Missing servers: lara-translate
+
+Task 68925f01db31fe35560e3e97
+  Missing servers: airtable, exa
+
+Task 689bd255c0422b257e7dfcf4
+  Missing servers: airtable
+
+Task 68925f01db31fe35560e3e9f
+  Missing servers: google-maps
+
+Task 68993ef3cf3e953b8ab83fa3
+  Missing servers: google-workspace
+
+Task 689cd6f8522029b7ad7b200a
+  Missing servers: notion, oxylabs
+
+Task 6896416f7b30e5d8ccd7c901
+  Missing servers: google-maps
+
+Task 689bd255c0422b257e7dfcc1
+  Missing servers: alchemy, google-workspace
+
+Task 6887c6d4614f06dc73af243e
+  Missing servers: notion
+
+Task 689bd255c0422b257e7dfcbb
+  Missing servers: airtable, exa
+
+Task 689bd255c0422b257e7dfcc4
+  Missing servers: alchemy, exa, slack
+
+Task 689e0b1d9c8e2ac413c1f211
+  Missing servers: alchemy
+
+Task 689a373e148a49f91233dfe4
+  Missing servers: brave-search, national-parks
+
+Task 6886306b5ed4da6b2c381189
+  Missing servers: brave-search, notion
+
+Task 6896416f7b30e5d8ccd7c8f0
+  Missing servers: google-maps, google-workspace
+
+Task 689cd6f8522029b7ad7b1fe7
+  Missing servers: national-parks
+
+Task 689cd6f8522029b7ad7b1fe5
+  Missing servers: lara-translate
+
+Task 689a373e148a49f91233e021
+  Missing servers: brave-search, mongodb
+
+Task 689af4e653c3905e7b5b258e
+  Missing servers: brave-search, national-parks, weather-data
+
+Task 68940d8355faa0b720f0b4b4
+  Missing servers: airtable
+
+Task 689f4d693e212e8ef3390707
+  Missing servers: alchemy, e2b-server
+
+Task 689f4d693e212e8ef3390720
+  Missing servers: alchemy, national-parks
+
+Task 6880e844943a73a8c5e412c3
+  Missing servers: lara-translate, oxylabs
+
+Task 689a373e148a49f91233dff0
+  Missing servers: brave-search, mongodb
+
+Task 68824c643e6ff020bc33994b
+  Missing servers: notion, oxylabs
+
+Task 68834223448b8fe04df2a592
+  Missing servers: notion, oxylabs
+
+Task 68940d8355faa0b720f0b499
+  Missing servers: airtable
+
+Task 689bd255c0422b257e7dfcad
+  Missing servers: airtable
+
+Task 689bd255c0422b257e7dfcb5
+  Missing servers: airtable, e2b-server, weather-data
+
+Task 689a373e148a49f91233dfd3
+  Missing servers: brave-search, mongodb
+
+Task 68925f01db31fe35560e3ea2
+  Missing servers: exa
+
+Task 689cd6f8522029b7ad7b202f
+  Missing servers: lara-translate
+
+Task 689a373e148a49f91233dfce
+  Missing servers: national-parks
+
+Task 689bd255c0422b257e7dfcbc
+  Missing servers: airtable, national-parks
+
+Task 6897a6002b64a8c831efa336
+  Missing servers: google-maps
+
+Task 689f4d693e212e8ef339072a
+  Missing servers: github
+
+Task 689cd6f8522029b7ad7b202a
+  Missing servers: national-parks, oxylabs, weather-data
+
+Task 688fb11183792b921381bd38
+  Missing servers: mongodb
+
+Task 6886306b5ed4da6b2c38117c
+  Missing servers: brave-search, google-workspace
+
+Task 68925f01db31fe35560e3e85
+  Missing servers: airtable, exa
+
+Task 689af4e653c3905e7b5b2581
+  Missing servers: airtable, brave-search, slack
+
+Task 689af4e653c3905e7b5b25c2
+  Missing servers: airtable, exa
+
+Task 689a373e148a49f91233dfd6
+  Missing servers: brave-search
+
+Task 689bd255c0422b257e7dfcca
+  Missing servers: alchemy, exa, lara-translate
+
+Task 689af4e653c3905e7b5b2596
+  Missing servers: airtable, exa
+
+Task 68952adeba1c2ad4e6a5db6e
+  Missing servers: airtable
+
+Task 689e0b1d9c8e2ac413c1f257
+  Missing servers: notion
+
+Task 689f4d693e212e8ef339071d
+  Missing servers: github, oxylabs
+
+Task 689cd6f8522029b7ad7b2014
+  Missing servers: slack
+
+Task 68a398aa2f58036e8d45eddf
+  Missing servers: github
+
+Task 68925f01db31fe35560e3ec1
+  Missing servers: airtable, exa
+
+Task 689e0b1d9c8e2ac413c1f214
+  Missing servers: notion
+
+Task 68925f01db31fe35560e3ec2
+  Missing servers: exa, google-maps
+
+Task 68925f01db31fe35560e3eb1
+  Missing servers: exa, mongodb
+
+Task 689bd255c0422b257e7dfcb9
+  Missing servers: national-parks
+
+Task 689cd6f8522029b7ad7b1fe1
+  Missing servers: alchemy
+
+Task 68993ef3cf3e953b8ab83fb1
+  Missing servers: google-maps, twelvedata
+
+Task 689bd255c0422b257e7dfcf7
+  Missing servers: exa, national-parks
+
+Task 689bd255c0422b257e7dfcde
+  Missing servers: google-workspace
+
+Task 689a373e148a49f91233e023
+  Missing servers: alchemy, brave-search
+
+Task 68a398aa2f58036e8d45edda
+  Missing servers: github, mongodb
+
+Task 689a373e148a49f91233e018
+  Missing servers: mongodb
+
+Task 689cd6f8522029b7ad7b1ffd
+  Missing servers: e2b-server
+
+Task 689cd6f8522029b7ad7b1fe6
+  Missing servers: oxylabs
+
+Task 689e0b1d9c8e2ac413c1f21b
+  Missing servers: lara-translate
+
+Task 68993ef3cf3e953b8ab83fbd
+  Missing servers: google-workspace
+
+Task 689bd255c0422b257e7dfccf
+  Missing servers: slack
+
+Task 686d2c79e1db37ea23ddd9f5
+  Missing servers: alchemy
+
+Task 688ba1b3e95696e72dd93ebb
+  Missing servers: exa
+
+Task 6866d4d2eea665b355a8f8ab
+  Missing servers: oxylabs, twelvedata
+
+Task 689af4e653c3905e7b5b259a
+  Missing servers: alchemy
+
+Task 689e0b1d9c8e2ac413c1f208
+  Missing servers: lara-translate
+
+Task 689cd6f8522029b7ad7b1fdd
+  Missing servers: notion
+
+Task 68a398aa2f58036e8d45ede0
+  Missing servers: mongodb, twelvedata
+
+Task 689a373e148a49f91233e00d
+  Missing servers: alchemy, brave-search, google-workspace
+
+Task 689af4e653c3905e7b5b257f
+  Missing servers: airtable, brave-search
+
+Task 68940d8355faa0b720f0b4b2
+  Missing servers: airtable
+
+Task 68a398aa2f58036e8d45edcf
+  Missing servers: mongodb
+
+Task 68a398aa2f58036e8d45edf7
+  Missing servers: google-workspace
+
+Task 6880e844943a73a8c5e412c1
+  Missing servers: alchemy, brave-search
+
+Task 6896416f7b30e5d8ccd7c8f8
+  Missing servers: twelvedata, weather-data
+
+Task 68993ef3cf3e953b8ab83fd2
+  Missing servers: github
+
+Task 68952adeba1c2ad4e6a5db79
+  Missing servers: airtable
+
+Task 6886306b5ed4da6b2c381170
+  Missing servers: brave-search, lara-translate, twelvedata
+
+Task 688a441c1a0d2e5c93853e5a
+  Missing servers: lara-translate
+
+Task 6897a6002b64a8c831efa312
+  Missing servers: google-maps
+
+Task 68a398aa2f58036e8d45ee19
+  Missing servers: twelvedata
+
+Task 68993ef3cf3e953b8ab83fb0
+  Missing servers: twelvedata
+
+Task 68a398aa2f58036e8d45edfd
+  Missing servers: mongodb
+
+Task 688ba1b3e95696e72dd93e9c
+  Missing servers: airtable, e2b-server, exa
+
+Task 689e0b1d9c8e2ac413c1f248
+  Missing servers: alchemy, national-parks, oxylabs
+
+Task 68952adeba1c2ad4e6a5db36
+  Missing servers: airtable
+
+Task 6888e207a34beb25cfedda95
+  Missing servers: notion
+
+Task 689cd6f8522029b7ad7b2008
+  Missing servers: lara-translate, oxylabs, slack
+
+Task 689a373e148a49f91233e000
+  Missing servers: mongodb
+
+Task 689a373e148a49f91233dfcb
+  Missing servers: brave-search, mongodb
+
+Task 689f4d693e212e8ef3390748
+  Missing servers: github, oxylabs, weather-data
+
+Task 68824c643e6ff020bc33990b
+  Missing servers: notion, oxylabs
+
+Task 689a373e148a49f91233e00c
+  Missing servers: brave-search, mongodb
+
+Task 68925f01db31fe35560e3e8a
+  Missing servers: exa, google-maps
+
+Task 689af4e653c3905e7b5b25a5
+  Missing servers: airtable, brave-search
+
+Task 68925f01db31fe35560e3ebb
+  Missing servers: google-maps, national-parks
+
+Task 689cd6f8522029b7ad7b1fff
+  Missing servers: notion
+
+Task 689a373e148a49f91233e027
+  Missing servers: brave-search, mongodb
+
+Task 689bd255c0422b257e7dfd08
+  Missing servers: exa, google-workspace
+
+Task 68952adeba1c2ad4e6a5db84
+  Missing servers: national-parks
+
+Task 689af4e653c3905e7b5b2568
+  Missing servers: lara-translate
+
+Task 68a398aa2f58036e8d45ee2e
+  Missing servers: mongodb
+
+Task 689cd6f8522029b7ad7b201e
+  Missing servers: oxylabs, slack
+
+Task 689bd255c0422b257e7dfcbe
+  Missing servers: alchemy, oxylabs, weather-data
+
+Task 689a373e148a49f91233e016
+  Missing servers: google-workspace, mongodb
+
+Task 6887c6d4614f06dc73af2411
+  Missing servers: lara-translate
+
+Task 6896416f7b30e5d8ccd7c8f3
+  Missing servers: google-maps
+
+Task 689bd255c0422b257e7dfcb2
+  Missing servers: airtable, exa
+
+Task 6884fb199c7308aa9d1185e5
+  Missing servers: github, lara-translate
+
+Task 689bd255c0422b257e7dfcd5
+  Missing servers: exa, national-parks
+
+Task 68925f01db31fe35560e3eb5
+  Missing servers: e2b-server, exa
+
+Task 689bd255c0422b257e7dfd07
+  Missing servers: exa, national-parks
+
+Task 68a398aa2f58036e8d45ee20
+  Missing servers: twelvedata
+
+Task 68a398aa2f58036e8d45ee23
+  Missing servers: twelvedata
+
+Task 689cd6f8522029b7ad7b200c
+  Missing servers: oxylabs
+
+Task 689a373e148a49f91233dff7
+  Missing servers: brave-search, github
+
+Task 68824c643e6ff020bc339914
+  Missing servers: twelvedata
+
+Task 68993ef3cf3e953b8ab83fd9
+  Missing servers: twelvedata
+
+Task 689cd6f8522029b7ad7b1fe0
+  Missing servers: slack
+
+Task 68a398aa2f58036e8d45edf4
+  Missing servers: mongodb
+
+Task 68a398aa2f58036e8d45edce
+  Missing servers: mongodb
+
+Task 688fb11183792b921381bd44
+  Missing servers: mongodb
+
+Task 68a398aa2f58036e8d45ee16
+  Missing servers: mongodb
+
+Task 68a398aa2f58036e8d45ee03
+  Missing servers: google-workspace
+
+Task 689af4e653c3905e7b5b25b6
+  Missing servers: twelvedata
+
+Task 68940d8355faa0b720f0b4b7
+  Missing servers: national-parks
+
+Task 6897a6002b64a8c831efa2e7
+  Missing servers: twelvedata
+
+Task 68925f01db31fe35560e3ebf
+  Missing servers: exa, mongodb
+
+Task 6876c6678fb597ff004a6b03
+  Missing servers: notion
+
+Task 689a373e148a49f91233e028
+  Missing servers: brave-search, mongodb
+
+Task 688a441c1a0d2e5c93853e93
+  Missing servers: notion
+
+Task 689e0b1d9c8e2ac413c1f20e
+  Missing servers: oxylabs
+
+Task 6897a6002b64a8c831efa2fa
+  Missing servers: twelvedata
+
+Task 68952adeba1c2ad4e6a5db8f
+  Missing servers: airtable
+
+Task 6896416f7b30e5d8ccd7c8e0
+  Missing servers: google-maps
+
+Task 689cd6f8522029b7ad7b1fe3
+  Missing servers: notion
+
+Task 6886306b5ed4da6b2c3811a0
+  Missing servers: brave-search, twelvedata
+
+Task 688fb11183792b921381bd1e
+  Missing servers: airtable, exa
+
+Task 6888e207a34beb25cfedda89
+  Missing servers: lara-translate
+
+Task 6887c6d4614f06dc73af240d
+  Missing servers: twelvedata
+
+Task 6890e7fd2516f66b0a628e5d
+  Missing servers: mongodb
+
+Task 68940d8355faa0b720f0b478
+  Missing servers: airtable
+
+Task 689e0b1d9c8e2ac413c1f220
+  Missing servers: alchemy, e2b-server, oxylabs, weather-data
+
+Task 689bd255c0422b257e7dfce6
+  Missing servers: exa, national-parks, weather-data
+
+Task 689af4e653c3905e7b5b2588
+  Missing servers: alchemy, brave-search, weather-data
+
+Task 6896416f7b30e5d8ccd7c8fc
+  Missing servers: google-maps
+
+Task 689e0b1d9c8e2ac413c1f1fe
+  Missing servers: national-parks, weather-data
+
+Task 689af4e653c3905e7b5b259f
+  Missing servers: airtable, exa
+
+Task 689a373e148a49f91233dfcd
+  Missing servers: mongodb
+
+Task 6896416f7b30e5d8ccd7c902
+  Missing servers: twelvedata, weather-data
+
+Task 6866d4d2eea665b355a8f8bc
+  Missing servers: oxylabs, slack
+
+Task 689e0b1d9c8e2ac413c1f24e
+  Missing servers: notion, oxylabs
+
+Task 689cd6f8522029b7ad7b2005
+  Missing servers: national-parks, oxylabs
+
+Task 68a398aa2f58036e8d45edfb
+  Missing servers: twelvedata
+
+Task 688fb11183792b921381bd66
+  Missing servers: e2b-server
+
+Task 68a398aa2f58036e8d45edf6
+  Missing servers: mongodb
+
+Task 689bd255c0422b257e7dfcbd
+  Missing servers: exa, slack
+
+Task 688ba1b3e95696e72dd93e92
+  Missing servers: e2b-server, exa
+
+Task 689f4d693e212e8ef33906f7
+  Missing servers: alchemy
+
+Task 686d2c79e1db37ea23ddda08
+  Missing servers: google-workspace
+
+Task 689cd6f8522029b7ad7b1ff4
+  Missing servers: national-parks, oxylabs
+
+Task 689f4d693e212e8ef339073a
+  Missing servers: github
+
+Task 68a398aa2f58036e8d45ee1f
+  Missing servers: mongodb
+
+Task 689cd6f8522029b7ad7b1fe2
+  Missing servers: oxylabs
+
+Task 6896416f7b30e5d8ccd7c913
+  Missing servers: google-maps
+
+Task 688a441c1a0d2e5c93853e4f
+  Missing servers: notion
+
+Task 689bd255c0422b257e7dfcb8
+  Missing servers: exa, lara-translate
+
+Task 689f4d693e212e8ef339073e
+  Missing servers: github
+
+Task 689a373e148a49f91233dfcf
+  Missing servers: mongodb
+
+Task 689cd6f8522029b7ad7b2003
+  Missing servers: oxylabs
+
+Task 689bd255c0422b257e7dfca9
+  Missing servers: lara-translate
+
+Task 689af4e653c3905e7b5b2582
+  Missing servers: airtable
+
+Task 68940d8355faa0b720f0b4aa
+  Missing servers: airtable
+
+Task 68925f01db31fe35560e3e9d
+  Missing servers: exa
+
+Task 689a373e148a49f91233dfdc
+  Missing servers: github
+
+Task 689bd255c0422b257e7dfce4
+  Missing servers: airtable
+
+Task 686bdf0ca7f3bf48518a172b
+  Missing servers: alchemy
+
+Task 689bd255c0422b257e7dfcc9
+  Missing servers: alchemy
+
+Task 688fb11183792b921381bd10
+  Missing servers: mongodb
+
+Task 6887c6d4614f06dc73af245f
+  Missing servers: slack
+
+Task 68925f01db31fe35560e3e87
+  Missing servers: exa, mongodb
+
+Task 689e0b1d9c8e2ac413c1f204
+  Missing servers: lara-translate
+
+Task 689cd6f8522029b7ad7b2030
+  Missing servers: slack
+
+Task 689a373e148a49f91233dfe8
+  Missing servers: brave-search
+
+Task 68a398aa2f58036e8d45ede2
+  Missing servers: github
+
+Task 68993ef3cf3e953b8ab83f8b
+  Missing servers: weather-data
+
+Task 6890e7fd2516f66b0a628e88
+  Missing servers: mongodb
+
+Task 68952adeba1c2ad4e6a5db77
+  Missing servers: airtable
+
+Task 689bd255c0422b257e7dfcc7
+  Missing servers: airtable, exa
+
+Task 68940d8355faa0b720f0b4c2
+  Missing servers: airtable
+
+Task 689a373e148a49f91233dfdb
+  Missing servers: brave-search, e2b-server
+
+Task 689a373e148a49f91233e01a
+  Missing servers: alchemy, brave-search
+
+Task 68a398aa2f58036e8d45eddc
+  Missing servers: google-workspace
+
+Task 689a373e148a49f91233e029
+  Missing servers: oxylabs
+
+Task 689cd6f8522029b7ad7b1fe4
+  Missing servers: alchemy
+
+Task 689a373e148a49f91233e002
+  Missing servers: brave-search
+
+Task 68a398aa2f58036e8d45ee26
+  Missing servers: github
+
+Task 689af4e653c3905e7b5b2572
+  Missing servers: airtable, brave-search
+
+Task 689f4d693e212e8ef3390744
+  Missing servers: github
+
+Task 689bd255c0422b257e7dfcd7
+  Missing servers: google-workspace
+
+Task 689a373e148a49f91233e024
+  Missing servers: alchemy
+
+Task 689af4e653c3905e7b5b258b
+  Missing servers: exa, national-parks
+
+Task 689cd6f8522029b7ad7b2024
+  Missing servers: notion
+
+Task 688ba1b3e95696e72dd93ecb
+  Missing servers: mongodb
+
+Task 689a373e148a49f91233e006
+  Missing servers: brave-search, mongodb
+
+Task 68a398aa2f58036e8d45edeb
+  Missing servers: google-workspace, mongodb
+
+Task 6887c6d4614f06dc73af240c
+  Missing servers: twelvedata
+
+Task 6866d4d2eea665b355a8f885
+  Missing servers: oxylabs, slack
+
+Task 689e0b1d9c8e2ac413c1f200
+  Missing servers: alchemy
+
+Task 689f4d693e212e8ef3390737
+  Missing servers: github
+
+Task 6890e7fd2516f66b0a628e3e
+  Missing servers: exa
+
+Task 688fb11183792b921381bd59
+  Missing servers: google-maps
+
+Task 6890e7fd2516f66b0a628e7e
+  Missing servers: exa, github
+
+Task 689af4e653c3905e7b5b259c
+  Missing servers: google-workspace
+
+Task 68834223448b8fe04df2a5b1
+  Missing servers: oxylabs
+
+Task 68952adeba1c2ad4e6a5db5b
+  Missing servers: airtable, weather-data
+
+Task 689bd255c0422b257e7dfd05
+  Missing servers: airtable
+
+Task 68952adeba1c2ad4e6a5db37
+  Missing servers: airtable
+
+Task 6897a6002b64a8c831efa304
+  Missing servers: twelvedata
+
+Task 6896416f7b30e5d8ccd7c8e5
+  Missing servers: google-maps
+
+Task 689af4e653c3905e7b5b2593
+  Missing servers: brave-search, national-parks
+
+Task 689bd255c0422b257e7dfcd0
+  Missing servers: exa, national-parks
+
+Task 689bd255c0422b257e7dfd00
+  Missing servers: exa, lara-translate, national-parks
+
+Task 68952adeba1c2ad4e6a5db96
+  Missing servers: national-parks
+
+Task 689f4d693e212e8ef3390716
+  Missing servers: github, oxylabs
+
+Task 689af4e653c3905e7b5b25bd
+  Missing servers: brave-search, slack
+
+Task 689f4d693e212e8ef33906f6
+  Missing servers: national-parks, oxylabs
+
+Task 689bd255c0422b257e7dfcae
+  Missing servers: airtable, exa
+
+Task 68a398aa2f58036e8d45edd1
+  Missing servers: mongodb
+
+Task 68a398aa2f58036e8d45ee21
+  Missing servers: twelvedata
+
+Task 689e0b1d9c8e2ac413c1f254
+  Missing servers: national-parks, weather-data
+
+Task 689a373e148a49f91233dff1
+  Missing servers: brave-search
+
+Task 689cd6f8522029b7ad7b1fee
+  Missing servers: national-parks
+
+Task 689a373e148a49f91233dfec
+  Missing servers: brave-search
+
+Task 688706e2ca6b3308497106ec
+  Missing servers: lara-translate, slack
+
+Task 68a398aa2f58036e8d45edd2
+  Missing servers: github
+
+Task 689af4e653c3905e7b5b25b0
+  Missing servers: airtable, brave-search
+
+Task 689af4e653c3905e7b5b257a
+  Missing servers: e2b-server
+
+Task 689e0b1d9c8e2ac413c1f24b
+  Missing servers: lara-translate, oxylabs, slack
+
+Task 689cd6f8522029b7ad7b200e
+  Missing servers: lara-translate, oxylabs
+
+Task 68952adeba1c2ad4e6a5db40
+  Missing servers: airtable
+
+Task 68a398aa2f58036e8d45ee13
+  Missing servers: twelvedata
+
+Task 689f4d693e212e8ef3390724
+  Missing servers: oxylabs
+
+Task 689cd6f8522029b7ad7b1ff7
+  Missing servers: slack
+
+Task 68940d8355faa0b720f0b4bb
+  Missing servers: airtable, national-parks
+
+Task 68a398aa2f58036e8d45edd3
+  Missing servers: mongodb
+
+Task 689cd6f8522029b7ad7b2039
+  Missing servers: slack
+
+Task 689e0b1d9c8e2ac413c1f238
+  Missing servers: lara-translate
+
+Task 689a373e148a49f91233e02b
+  Missing servers: e2b-server, weather-data
+
+Task 689e0b1d9c8e2ac413c1f229
+  Missing servers: alchemy, lara-translate
+
+Task 6886306b5ed4da6b2c3811aa
+  Missing servers: brave-search, notion
+
+Task 689e0b1d9c8e2ac413c1f245
+  Missing servers: oxylabs, weather-data
+
+Task 688fb11183792b921381bd0d
+  Missing servers: airtable, e2b-server, exa
+
+Task 689bd255c0422b257e7dfcd9
+  Missing servers: exa, weather-data
+
+Task 6886306b5ed4da6b2c381182
+  Missing servers: brave-search
+
+Task 689cd6f8522029b7ad7b203a
+  Missing servers: national-parks, oxylabs
+
+Task 689af4e653c3905e7b5b25c8
+  Missing servers: brave-search, twelvedata, weather-data
+
+Task 688fb11183792b921381bd55
+  Missing servers: mongodb
+
+Task 6886306b5ed4da6b2c38118b
+  Missing servers: alchemy, brave-search
+
+Task 688a441c1a0d2e5c93853e99
+  Missing servers: lara-translate
+
+Task 68a398aa2f58036e8d45edd7
+  Missing servers: twelvedata
+
+Task 689bd255c0422b257e7dfcec
+  Missing servers: alchemy, exa
+
+Task 689e0b1d9c8e2ac413c1f20f
+  Missing servers: national-parks, weather-data
+
+Task 689a373e148a49f91233e001
+  Missing servers: mongodb
+
+Task 689a373e148a49f91233dfed
+  Missing servers: brave-search
+
+Task 689a373e148a49f91233e003
+  Missing servers: brave-search, mongodb
+
+Task 689e0b1d9c8e2ac413c1f228
+  Missing servers: national-parks
+
+Task 68940d8355faa0b720f0b4ba
+  Missing servers: weather-data
+
+Task 689bd255c0422b257e7dfcd4
+  Missing servers: airtable, exa
+
+Task 68925f01db31fe35560e3eb8
+  Missing servers: e2b-server, exa, mongodb
+
+Task 689cd6f8522029b7ad7b1fdc
+  Missing servers: lara-translate, oxylabs
+
+Task 689cd6f8522029b7ad7b200d
+  Missing servers: oxylabs
+
+Task 689cd6f8522029b7ad7b1fdb
+  Missing servers: national-parks
+
+Task 6884fb199c7308aa9d1185dc
+  Missing servers: brave-search, twelvedata
+
+Task 689bd255c0422b257e7dfca8
+  Missing servers: airtable, exa
+
+Task 689bd255c0422b257e7dfca5
+  Missing servers: oxylabs, slack
+
+Task 689cd6f8522029b7ad7b2034
+  Missing servers: alchemy, oxylabs, weather-data
+
+Task 6890e7fd2516f66b0a628e3a
+  Missing servers: airtable, e2b-server
+
+Task 68925f01db31fe35560e3eaf
+  Missing servers: exa
+
+Task 68993ef3cf3e953b8ab83fcc
+  Missing servers: google-maps, google-workspace
+
+Task 6886306b5ed4da6b2c381199
+  Missing servers: notion, slack
+
+Task 68824c643e6ff020bc339906
+  Missing servers: alchemy, notion
+
+Task 689cd6f8522029b7ad7b1ff0
+  Missing servers: github
+
+Task 689af4e653c3905e7b5b2576
+  Missing servers: brave-search, twelvedata
+
+Task 68952adeba1c2ad4e6a5db3a
+  Missing servers: airtable
+
+Task 68925f01db31fe35560e3ec5
+  Missing servers: exa, mongodb
+
+Task 68925f01db31fe35560e3e92
+  Missing servers: e2b-server, mongodb
+
+Task 689cd6f8522029b7ad7b2036
+  Missing servers: alchemy
+
+Task 686bdf0ca7f3bf48518a1769
+  Missing servers: twelvedata
+
+Task 6896416f7b30e5d8ccd7c8dd
+  Missing servers: github
+
+Task 68993ef3cf3e953b8ab83fd7
+  Missing servers: twelvedata, weather-data
+
+Task 689af4e653c3905e7b5b25a3
+  Missing servers: national-parks
+
+Task 689e0b1d9c8e2ac413c1f225
+  Missing servers: e2b-server, slack
+
+Task 6890e7fd2516f66b0a628e32
+  Missing servers: exa
+
+Task 68a398aa2f58036e8d45ee1c
+  Missing servers: mongodb, twelvedata
+
+Task 689cd6f8522029b7ad7b1ff1
+  Missing servers: notion
+
+Task 689a373e148a49f91233e004
+  Missing servers: weather-data
+
+Task 689cd6f8522029b7ad7b1feb
+  Missing servers: github
+
+Task 68925f01db31fe35560e3e70
+  Missing servers: exa
+
+Task 68993ef3cf3e953b8ab83fd1
+  Missing servers: weather-data
+
+Task 689cd6f8522029b7ad7b1ff9
+  Missing servers: notion, weather-data
+
+Task 689af4e653c3905e7b5b2579
+  Missing servers: exa
+
+Task 6890e7fd2516f66b0a628e27
+  Missing servers: airtable, exa
+
+Task 6890e7fd2516f66b0a628e6f
+  Missing servers: airtable, mongodb
+
+Task 688fb11183792b921381bd25
+  Missing servers: mongodb
+
+Task 68a398aa2f58036e8d45edec
+  Missing servers: mongodb
+
+Task 689af4e653c3905e7b5b25b9
+  Missing servers: airtable, brave-search, slack
+
+Task 689af4e653c3905e7b5b25c3
+  Missing servers: brave-search
+
+Task 688ba1b3e95696e72dd93ed9
+  Missing servers: mongodb
+
+Task 689bd255c0422b257e7dfcce
+  Missing servers: slack
+
+Task 6890e7fd2516f66b0a628e30
+  Missing servers: google-maps
+
+Task 688ba1b3e95696e72dd93e9f
+  Missing servers: airtable, exa
+
+Task 687b3f4e721b0fdbc8d0a79b
+  Missing servers: alchemy, notion
+
+Task 689bd255c0422b257e7dfcf3
+  Missing servers: exa, github
+
+Task 689bd255c0422b257e7dfd04
+  Missing servers: slack
+
+Task 6897a6002b64a8c831efa335
+  Missing servers: google-maps
+
+Task 689bd255c0422b257e7dfcef
+  Missing servers: airtable, alchemy, e2b-server, exa
+
+Task 68824c643e6ff020bc339928
+  Missing servers: alchemy, notion, oxylabs
+
+Task 689bd255c0422b257e7dfce1
+  Missing servers: alchemy, exa, notion
+
+Task 689e0b1d9c8e2ac413c1f240
+  Missing servers: weather-data
+
+Task 689bd255c0422b257e7dfcb6
+  Missing servers: exa
+
+Task 688ba1b3e95696e72dd93e87
+  Missing servers: mongodb
+
+Task 689af4e653c3905e7b5b25c4
+  Missing servers: airtable, brave-search
+
+Task 689cd6f8522029b7ad7b2012
+  Missing servers: lara-translate, national-parks
+
+Task 6897a6002b64a8c831efa2ff
+  Missing servers: google-maps
+
+Task 689e0b1d9c8e2ac413c1f237
+  Missing servers: national-parks, oxylabs
+
+Task 68952adeba1c2ad4e6a5db51
+  Missing servers: airtable
+
+Task 689af4e653c3905e7b5b2578
+  Missing servers: airtable
+
+Task 6888e207a34beb25cfedda8b
+  Missing servers: lara-translate, twelvedata
+
+Task 68a398aa2f58036e8d45edde
+  Missing servers: mongodb
+
+Task 6896416f7b30e5d8ccd7c90a
+  Missing servers: google-maps
+
+Task 689af4e653c3905e7b5b25c1
+  Missing servers: brave-search, lara-translate
+
+Task 68940d8355faa0b720f0b482
+  Missing servers: airtable
+
+Task 689cd6f8522029b7ad7b2013
+  Missing servers: oxylabs, slack
+
+Task 689f4d693e212e8ef3390728
+  Missing servers: github
+
+Task 68a398aa2f58036e8d45ee08
+  Missing servers: mongodb
+
+Task 689a373e148a49f91233e01d
+  Missing servers: alchemy, google-workspace
+
+Task 689f4d693e212e8ef33906f8
+  Missing servers: oxylabs
+
+Task 68834223448b8fe04df2a595
+  Missing servers: notion, oxylabs
+
+Task 68a398aa2f58036e8d45edfc
+  Missing servers: twelvedata
+
+Task 688fb11183792b921381bd21
+  Missing servers: exa, mongodb
+
+Task 68940d8355faa0b720f0b481
+  Missing servers: airtable, national-parks
+
+Task 689af4e653c3905e7b5b25a0
+  Missing servers: brave-search, twelvedata
+
+Task 689af4e653c3905e7b5b258a
+  Missing servers: airtable
+
+Task 689f4d693e212e8ef3390733
+  Missing servers: lara-translate, oxylabs
+
+Task 689bd255c0422b257e7dfcc2
+  Missing servers: exa, national-parks, weather-data
+
+Task 689e0b1d9c8e2ac413c1f20c
+  Missing servers: e2b-server, oxylabs
+
+Task 689af4e653c3905e7b5b259b
+  Missing servers: google-workspace, twelvedata
+
+Task 688706e2ca6b3308497106fc
+  Missing servers: lara-translate
+
+Task 6890e7fd2516f66b0a628e7c
+  Missing servers: e2b-server, exa, google-maps
+
+Task 6896416f7b30e5d8ccd7c8b9
+  Missing servers: twelvedata
+
+Task 689af4e653c3905e7b5b25a4
+  Missing servers: alchemy, brave-search
+
+Task 689bd255c0422b257e7dfcda
+  Missing servers: slack
+
+Task 689a373e148a49f91233dffa
+  Missing servers: alchemy
+
+Task 689bd255c0422b257e7dfce7
+  Missing servers: alchemy, exa
+
+Task 68925f01db31fe35560e3ecc
+  Missing servers: exa, mongodb
+
+Task 68952adeba1c2ad4e6a5db91
+  Missing servers: airtable
+
+Task 68993ef3cf3e953b8ab83fa4
+  Missing servers: twelvedata
+
+Task 689e0b1d9c8e2ac413c1f24d
+  Missing servers: oxylabs, weather-data
+
+Task 688fb11183792b921381bd27
+  Missing servers: exa
+
+Task 6897a6002b64a8c831efa2e9
+  Missing servers: google-maps
+
+Task 689f4d693e212e8ef3390701
+  Missing servers: notion
+
+Task 689e0b1d9c8e2ac413c1f23a
+  Missing servers: alchemy, lara-translate
+
+Task 68a398aa2f58036e8d45ee05
+  Missing servers: mongodb
+
+Task 687ebf5ff5a578e0055a4560
+  Missing servers: oxylabs
+
+Task 689f4d693e212e8ef339070a
+  Missing servers: lara-translate
+
+Task 689af4e653c3905e7b5b257d
+  Missing servers: airtable
+
+Task 68925f01db31fe35560e3ea8
+  Missing servers: airtable, exa
+
+Task 687ebf5ff5a578e0055a455e
+  Missing servers: notion, slack
+
+Task 689af4e653c3905e7b5b25a1
+  Missing servers: airtable
+
+Task 68a398aa2f58036e8d45edd4
+  Missing servers: mongodb, twelvedata
+
+Task 689cd6f8522029b7ad7b2037
+  Missing servers: notion
+
+Task 6876c6678fb597ff004a6afa
+  Missing servers: notion, twelvedata
+
+Task 6888e207a34beb25cfedda70
+  Missing servers: notion, slack
+
+Task 689bd255c0422b257e7dfccb
+  Missing servers: e2b-server
+
+Task 689a373e148a49f91233dfe6
+  Missing servers: brave-search, mongodb
+
+Task 689f4d693e212e8ef3390710
+  Missing servers: lara-translate
+
+Task 68a398aa2f58036e8d45eddb
+  Missing servers: google-workspace, twelvedata
+
+Task 689bd255c0422b257e7dfcaf
+  Missing servers: google-workspace
+
+Task 68a398aa2f58036e8d45ee01
+  Missing servers: github
+
+Task 68925f01db31fe35560e3e78
+  Missing servers: exa, weather-data
+
+Task 689e0b1d9c8e2ac413c1f1ff
+  Missing servers: national-parks, oxylabs
+
+Task 689e0b1d9c8e2ac413c1f206
+  Missing servers: e2b-server, lara-translate, national-parks, oxylabs
+
+Task 68952adeba1c2ad4e6a5db74
+  Missing servers: airtable
+
+Task 689bd255c0422b257e7dfcc6
+  Missing servers: exa
+
+Task 689bd255c0422b257e7dfcb1
+  Missing servers: airtable, oxylabs
+
+Task 688ba1b3e95696e72dd93ed3
+  Missing servers: google-maps
+
+Task 6886306b5ed4da6b2c381175
+  Missing servers: e2b-server
+
+Task 68925f01db31fe35560e3e77
+  Missing servers: airtable, e2b-server, exa
+
+Task 68a398aa2f58036e8d45ee15
+  Missing servers: mongodb
+
+Task 689cd6f8522029b7ad7b2020
+  Missing servers: alchemy
+
+Task 688fb11183792b921381bd52
+  Missing servers: mongodb
+
+Task 688ba1b3e95696e72dd93ee0
+  Missing servers: mongodb
+
+Task 689cd6f8522029b7ad7b202c
+  Missing servers: alchemy, e2b-server
+
+Task 6890e7fd2516f66b0a628e35
+  Missing servers: mongodb
+
+Task 689e0b1d9c8e2ac413c1f249
+  Missing servers: oxylabs, weather-data
+
+Task 68a398aa2f58036e8d45ee11
+  Missing servers: github
+
+Task 689e0b1d9c8e2ac413c1f24c
+  Missing servers: alchemy, github, oxylabs
+
+Task 6890e7fd2516f66b0a628e40
+  Missing servers: mongodb
+
+Task 689e0b1d9c8e2ac413c1f242
+  Missing servers: alchemy, lara-translate
+
+Task 689cd6f8522029b7ad7b203e
+  Missing servers: oxylabs, weather-data
+
+Task 6866d4d2eea665b355a8f884
+  Missing servers: notion
+
+Task 689cd6f8522029b7ad7b203c
+  Missing servers: lara-translate, national-parks, oxylabs
+
+Task 68993ef3cf3e953b8ab83faf
+  Missing servers: google-maps, weather-data
+
+
+================================================================================
+END OF REPORT
+================================================================================

@@ -1,0 +1,62 @@
+base_model: /path/to/models/Qwen3-coder-30B
+
+# Liger kernel optimizations for Qwen3 MoE
+# Note: liger_rope is NOT supported for qwen3_moe
+plugins:
+  - axolotl.integrations.liger.LigerPlugin
+
+liger_rms_norm: true
+liger_glu_activation: true
+liger_layer_norm: true
+liger_fused_linear_cross_entropy: true
+
+use_tensorboard: true
+
+
+seed: 42
+
+# Chat template configuration
+chat_template: tokenizer_default
+
+datasets:
+  - path: ../../datas/benchmax_sft_iter1.jsonl
+    ds_type: json
+    type: chat_template
+    field_messages: messages
+    field_tools: tools
+    roles_to_train:
+      - assistant
+
+dataset_prepared_path: /path/to/data_cache
+val_set_size: 0
+tokenizer_config: /path/to/models/Qwen3-coder-30B
+
+output_dir: ./output/exp0
+save_safetensors: true
+save_steps: 200
+save_total_limit: 10
+
+sequence_len: 131072 
+sample_packing: true
+pad_to_sequence_len: true
+gradient_checkpointing: true 
+
+gradient_accumulation_steps: 4
+micro_batch_size: 1
+num_epochs: 2
+optimizer: adamw_torch_fused
+lr_scheduler: constant
+learning_rate: 0.00005
+
+context_parallel_size: 1
+flash_attention: true
+
+bf16: true
+
+logging_steps: 1
+warmup_ratio: 0.03
+evals_per_epoch: 0
+weight_decay: 0.01
+
+# DeepSpeed ZeRO-3 configuration
+deepspeed: ./deepspeed_configs/zero3_bf16.json

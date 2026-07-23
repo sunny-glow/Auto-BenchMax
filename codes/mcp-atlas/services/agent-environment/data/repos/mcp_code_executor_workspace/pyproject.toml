@@ -1,0 +1,9 @@
+[project]
+name = "mcp-code-executor-workspace"
+version = "0.1.0"
+description = "Workspace environment for MCP code executor server"
+dependencies = [
+    "pandas==2.3.1",
+    "numpy==2.3.1",
+    "scipy==1.16.0",
+]

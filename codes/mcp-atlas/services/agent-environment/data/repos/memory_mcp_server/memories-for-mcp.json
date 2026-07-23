@@ -1,0 +1,96 @@
+{"type":"entity","name":"BuildWell Construction","entityType":"Organization","observations":["Top-tier residential contractor","Specializes in home renovations"]}
+{"type":"entity","name":"Alice Gomez","entityType":"Person","observations":["Leads multi-team construction projects","Coordinates client deliverables","8 years of field experience","Certified PMP"]}
+{"type":"entity","name":"Brian Ruiz","entityType":"Person","observations":["Designs load-bearing structures","Performs on-site 3D modeling","Drone inspection enthusiast","Holds engineering diploma"]}
+{"type":"entity","name":"Clara Reyes","entityType":"Person","observations":["Interprets complex wiring schematics","Certifies electrical compliance","Runs evening safety workshops","Community STEM volunteer"]}
+{"type":"entity","name":"David Thompson","entityType":"Person","observations":["Installs high-pressure pipelines","Specialist in leak diagnostics","On-call for emergency repairs","Expert in backflow prevention"]}
+{"type":"entity","name":"Emily Zhang","entityType":"Person","observations":["Develops job-site safety protocols","Conducts daily hazard assessments","Drafts compliance reports","First-aid instructor"]}
+{"type":"entity","name":"Maria Gomez","entityType":"Person","observations":["Star violinist in school orchestra","Animal shelter volunteer","Excel spreadsheet whiz","Watercolor painting hobbyist"]}
+{"type":"entity","name":"Jorge Gomez","entityType":"Person","observations":["Manages complex tax filings","Half-marathon finisher","Vintage stamp collector","Hosts monthly game nights"]}
+{"type":"entity","name":"Elena Ruiz","entityType":"Person","observations":["After-school calculus tutor","Undergraduate research assistant","Robotics club president","Part-time café barista"]}
+{"type":"entity","name":"Marco Ruiz","entityType":"Person","observations":["Creates fusion cuisine menus","Oversees kitchen inventory","Hosts underground supper clubs","Food photography enthusiast"]}
+{"type":"entity","name":"Javier Reyes","entityType":"Person","observations":["Drafts and reviews contracts","Moot court champion","Leads negotiation workshops","Chess club president"]}
+{"type":"entity","name":"Sofia Reyes","entityType":"Person","observations":["Analyzes complex loan portfolios","Heads risk-management team","Trilingual in Spanish and Mandarin","Community banking advocate"]}
+{"type":"entity","name":"Karen Thompson","entityType":"Person","observations":["Directed K-12 school programs","Organizes community theater","Master gardener","Youth mentorship coordinator"]}
+{"type":"entity","name":"Michael Thompson","entityType":"Person","observations":["Plans large-scale infrastructure","Publishes civil-engineering journals","Conducts site surveys","Road safety auditor"]}
+{"type":"entity","name":"Li Zhang","entityType":"Person","observations":["Curates gallery exhibitions","Teaches acrylic painting","Hosts digital-art workshops","Nature photographer"]}
+{"type":"entity","name":"Chen Zhang","entityType":"Person","observations":["Provides pediatric consultations","Organizes community health fairs","Leads medical research studies","Public health speaker"]}
+{"type":"entity","name":"Project Manager","entityType":"Role","observations":["Oversees project execution","Coordinates cross-functional teams"]}
+{"type":"entity","name":"Site Engineer","entityType":"Role","observations":["Monitors structural integrity","Implements design plans"]}
+{"type":"entity","name":"Electrician","entityType":"Role","observations":["Installs and tests electrical systems","Ensures power safety"]}
+{"type":"entity","name":"Plumber","entityType":"Role","observations":["Manages water and sewage systems","Performs pipe installations"]}
+{"type":"entity","name":"Safety Officer","entityType":"Role","observations":["Conducts safety audits","Trains crew on compliance"]}
+{"type":"entity","name":"Student","entityType":"Role","observations":["Enrolled in educational institution","Completes coursework"]}
+{"type":"entity","name":"Accountant","entityType":"Role","observations":["Manages financial records","Prepares tax filings"]}
+{"type":"entity","name":"University Student","entityType":"Role","observations":["Studies engineering curriculum","Engages in research"]}
+{"type":"entity","name":"Chef","entityType":"Role","observations":["Develops menus","Supervises kitchen operations"]}
+{"type":"entity","name":"Lawyer","entityType":"Role","observations":["Provides legal counsel","Drafts contracts"]}
+{"type":"entity","name":"Bank Manager","entityType":"Role","observations":["Oversees branch operations","Manages client relations"]}
+{"type":"entity","name":"Retired Principal","entityType":"Role","observations":["Led school administration","Mentors new educators"]}
+{"type":"entity","name":"Civil Engineer","entityType":"Role","observations":["Designs infrastructure projects","Conducts site analysis"]}
+{"type":"entity","name":"Artist","entityType":"Role","observations":["Creates visual artwork","Exhibits in galleries"]}
+{"type":"entity","name":"Doctor","entityType":"Role","observations":["Diagnoses conditions","Provides patient care"]}
+{"type":"entity","name":"Project Kickoff Meeting","entityType":"Event","observations":["Introduced project scope","Assigned initial tasks"]}
+{"type":"entity","name":"Safety Training","entityType":"Event","observations":["Reviewed OSHA guidelines","Demonstrated equipment use","Distributed PPE"]}
+{"type":"entity","name":"Blueprint Review","entityType":"Event","observations":["Architect presented designs","Engineers gave feedback"]}
+{"type":"entity","name":"Electrical Installation Day","entityType":"Event","observations":["Wiring installed on level 1","Emergency circuits tested","Load capacities recorded"]}
+{"type":"entity","name":"Plumbing Inspection","entityType":"Event","observations":["Piping connections checked","Water pressure verified"]}
+{"type":"entity","name":"Gomez Family Reunion","entityType":"Event","observations":["Held at Riverside Park","Potluck dinner","Group photo taken"]}
+{"type":"entity","name":"Ruiz Family Dinner","entityType":"Event","observations":["At Ruiz residence","Tamales on menu","Shared family stories"]}
+{"type":"entity","name":"Reyes Family Soccer Game","entityType":"Event","observations":["Played at local field","Mixed-age teams","Post-game barbecue"]}
+{"type":"entity","name":"Thompson Family Reunion","entityType":"Event","observations":["At family farm","Live music","Bonfire","Storytelling"]}
+{"type":"entity","name":"Zhang Family Picnic","entityType":"Event","observations":["In botanical garden","Tea tasting","Calligraphy demo"]}
+{"type":"relation","from":"Alice Gomez","to":"BuildWell Construction","relationType":"works for"}
+{"type":"relation","from":"Brian Ruiz","to":"BuildWell Construction","relationType":"works for"}
+{"type":"relation","from":"Clara Reyes","to":"BuildWell Construction","relationType":"works for"}
+{"type":"relation","from":"David Thompson","to":"BuildWell Construction","relationType":"works for"}
+{"type":"relation","from":"Emily Zhang","to":"BuildWell Construction","relationType":"works for"}
+{"type":"relation","from":"Alice Gomez","to":"Gomez Family","relationType":"belongs to"}
+{"type":"relation","from":"Brian Ruiz","to":"Ruiz Family","relationType":"belongs to"}
+{"type":"relation","from":"Clara Reyes","to":"Reyes Family","relationType":"belongs to"}
+{"type":"relation","from":"David Thompson","to":"Thompson Family","relationType":"belongs to"}
+{"type":"relation","from":"Emily Zhang","to":"Zhang Family","relationType":"belongs to"}
+{"type":"relation","from":"Maria Gomez","to":"Gomez Family","relationType":"belongs to"}
+{"type":"relation","from":"Jorge Gomez","to":"Gomez Family","relationType":"belongs to"}
+{"type":"relation","from":"Elena Ruiz","to":"Ruiz Family","relationType":"belongs to"}
+{"type":"relation","from":"Marco Ruiz","to":"Ruiz Family","relationType":"belongs to"}
+{"type":"relation","from":"Javier Reyes","to":"Reyes Family","relationType":"belongs to"}
+{"type":"relation","from":"Sofia Reyes","to":"Reyes Family","relationType":"belongs to"}
+{"type":"relation","from":"Karen Thompson","to":"Thompson Family","relationType":"belongs to"}
+{"type":"relation","from":"Michael Thompson","to":"Thompson Family","relationType":"belongs to"}
+{"type":"relation","from":"Li Zhang","to":"Zhang Family","relationType":"belongs to"}
+{"type":"relation","from":"Chen Zhang","to":"Zhang Family","relationType":"belongs to"}
+{"type":"relation","from":"Alice Gomez","to":"Project Manager","relationType":"holds role"}
+{"type":"relation","from":"Brian Ruiz","to":"Site Engineer","relationType":"holds role"}
+{"type":"relation","from":"Clara Reyes","to":"Electrician","relationType":"holds role"}
+{"type":"relation","from":"David Thompson","to":"Plumber","relationType":"holds role"}
+{"type":"relation","from":"Emily Zhang","to":"Safety Officer","relationType":"holds role"}
+{"type":"relation","from":"Maria Gomez","to":"Student","relationType":"holds role"}
+{"type":"relation","from":"Jorge Gomez","to":"Accountant","relationType":"holds role"}
+{"type":"relation","from":"Elena Ruiz","to":"University Student","relationType":"holds role"}
+{"type":"relation","from":"Marco Ruiz","to":"Chef","relationType":"holds role"}
+{"type":"relation","from":"Javier Reyes","to":"Lawyer","relationType":"holds role"}
+{"type":"relation","from":"Sofia Reyes","to":"Bank Manager","relationType":"holds role"}
+{"type":"relation","from":"Karen Thompson","to":"Retired Principal","relationType":"holds role"}
+{"type":"relation","from":"Michael Thompson","to":"Civil Engineer","relationType":"holds role"}
+{"type":"relation","from":"Li Zhang","to":"Artist","relationType":"holds role"}
+{"type":"relation","from":"Chen Zhang","to":"Doctor","relationType":"holds role"}
+{"type":"relation","from":"Alice Gomez","to":"Project Kickoff Meeting","relationType":"attends"}
+{"type":"relation","from":"Emily Zhang","to":"Safety Training","relationType":"attends"}
+{"type":"relation","from":"Brian Ruiz","to":"Blueprint Review","relationType":"attends"}
+{"type":"relation","from":"Clara Reyes","to":"Electrical Installation Day","relationType":"attends"}
+{"type":"relation","from":"David Thompson","to":"Plumbing Inspection","relationType":"attends"}
+{"type":"relation","from":"Alice Gomez","to":"Gomez Family Reunion","relationType":"attends"}
+{"type":"relation","from":"Maria Gomez","to":"Gomez Family Reunion","relationType":"attends"}
+{"type":"relation","from":"Jorge Gomez","to":"Gomez Family Reunion","relationType":"attends"}
+{"type":"relation","from":"Brian Ruiz","to":"Ruiz Family Dinner","relationType":"attends"}
+{"type":"relation","from":"Elena Ruiz","to":"Ruiz Family Dinner","relationType":"attends"}
+{"type":"relation","from":"Marco Ruiz","to":"Ruiz Family Dinner","relationType":"attends"}
+{"type":"relation","from":"Clara Reyes","to":"Reyes Family Soccer Game","relationType":"attends"}
+{"type":"relation","from":"Javier Reyes","to":"Reyes Family Soccer Game","relationType":"attends"}
+{"type":"relation","from":"Sofia Reyes","to":"Reyes Family Soccer Game","relationType":"attends"}
+{"type":"relation","from":"David Thompson","to":"Thompson Family Reunion","relationType":"attends"}
+{"type":"relation","from":"Karen Thompson","to":"Thompson Family Reunion","relationType":"attends"}
+{"type":"relation","from":"Michael Thompson","to":"Thompson Family Reunion","relationType":"attends"}
+{"type":"relation","from":"Emily Zhang","to":"Zhang Family Picnic","relationType":"attends"}
+{"type":"relation","from":"Li Zhang","to":"Zhang Family Picnic","relationType":"attends"}
+{"type":"relation","from":"Chen Zhang","to":"Zhang Family Picnic","relationType":"attends"}
