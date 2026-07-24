@@ -134,7 +134,7 @@ Its coverage is still narrow. That said, we believe the ideas here can be carrie
 
 > **I know that in a few days, a few weeks, or a few months, the major model vendors will still be watching benchmark scores closely. That's understandable — objectively, when we want to measure model performance, a public benchmark is a quick ruler for checking training results. But as everyone knows, public benchmarks are no longer a very reliable ruler for fair measurement.**
 
-So, as a regular practitioner in the field who hopes to see domestic models keep getting better, my hope is:
+As a practitioner who wants to see domestic models move forward, here's what I hope for:
 
 1. **For those who *use* benchmarks** — build more internal, in-house evaluations. I've seen many teams that already have their own internal benchmarks; this is great.
 2. **For those who *build* benchmarks** — create benchmarks that reflect real, everyday needs, so that a model which genuinely scores high through methods like this will also be genuinely useful in daily work.
