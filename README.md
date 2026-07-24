@@ -1,5 +1,7 @@
 <div align="center">
 
+[English](README.md) | [中文](README_zh.md)
+
 # 🚀 Auto-BenchMax
 
 **One click to automatically build benchmark-targeted data and reach up to 2× the base model's score.**
